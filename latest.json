@@ -1,8 +1,8 @@
 {
     "version": "1.0.0",
     "installer_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256": "44a085b14a8c25330de0ee6fee812cd757221e3220901eb219267e3f06e9e32e",
+    "installer_sha256": "0e9a88d3e2d45a999d8e79f75593ff164b7f6f025509af583af3712f58966f4c",
     "archive_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.0/Wconect-VoIP_1.0.0.exe",
-    "published_at": "2026-07-26T11:40:00Z",
+    "published_at": "2026-07-26T12:15:00Z",
     "notes": "- Telefonia SIP completa: chamadas, hold, transferência assistida, DTMF, DND\n- Suporte a headsets HID (atender, desligar, mudo, espera pelos botões físicos)\n- Gravação de chamadas corrigida e com pasta configurável\n- Painel de qualidade da chamada em tempo real (MOS, jitter, RTT, perda de pacotes)\n- Gerenciamento de codecs por arrastar e soltar\n- Verificação automática de atualização com validação de integridade (SHA-256)"
 }
