@@ -19,25 +19,12 @@ privado separado.
   cada versão publicada fica arquivada permanentemente com o instalador
   nomeado `Wconect-VoIP_X.Y.Z.exe`.
 
-## Changelog
+## Notas da versão
 
-`CHANGELOG.txt` acumula o histórico completo de todas as versões
-(mais recente no topo), no formato:
-
-```
-versão 1.0.1
-----------------
-1. Item novo desta versão
-2. Outro item
-
-versão 1.0.0
-----------------
-1. Item da versão anterior
-...
-```
-
-Mesmo texto aparece no corpo de cada release do GitHub (inclusive a
-"latest") - padrão inspirado no
+[`NOTAS_DA_VERSAO.md`](NOTAS_DA_VERSAO.md) acumula o histórico completo
+de todas as versões (mais recente no topo), em Markdown, com o mesmo
+conteúdo que aparece no corpo de cada release do GitHub (inclusive a
+"latest") — padrão inspirado no
 [FxSound](https://github.com/fxsound2/fxsound-app/releases/tag/latest).
 Sempre em Português do Brasil.
 
@@ -54,7 +41,7 @@ Sempre em Português do Brasil.
 ```
 
 Atualizado automaticamente por `tools/publish_release.ps1` (repositório
-privado) a cada nova versão publicada — ver `docs/packaging.md` lá.
+privado) a cada nova versão publicada — ver `docs/packaging.md` nele.
 
 ## Retenção de versões antigas
 
