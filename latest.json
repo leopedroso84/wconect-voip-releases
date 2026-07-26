@@ -1,8 +1,8 @@
-﻿{
+{
     "version":  "1.0.0",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "23b7adda36e8cb631ac7dc74309dd36d538e367ae50bce4c1792ad47ed1c7568",
+    "installer_sha256":  "7b7a299b0c874ceb5bed06bb3078494cc8dea13ccd2f138fe9327b58dfee448e",
     "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.0/Wconect-VoIP_1.0.0.exe",
-    "published_at":  "2026-07-26T11:11:01Z",
-    "notes":  "â€¢ Telefonia SIP completa: chamadas, hold, transferência assistida, DTMF, DND\nâ€¢ Suporte a headsets HID (atender, desligar, mudo, espera pelos botões físicos)\nâ€¢ Gravação de chamadas corrigida e com pasta configurável\nâ€¢ Painel de qualidade da chamada em tempo real (MOS, jitter, RTT, perda de pacotes)\nâ€¢ Gerenciamento de codecs por arrastar e soltar\nâ€¢ Verificação automática de atualização com validação de integridade (SHA-256)"
+    "published_at":  "2026-07-26T11:16:43Z",
+    "notes":  "- Telefonia SIP completa: chamadas, hold, transferência assistida, DTMF, DND\n- Suporte a headsets HID (atender, desligar, mudo, espera pelos botões físicos)\n- Gravação de chamadas corrigida e com pasta configurável\n- Painel de qualidade da chamada em tempo real (MOS, jitter, RTT, perda de pacotes)\n- Gerenciamento de codecs por arrastar e soltar\n- Verificação automática de atualização com validação de integridade (SHA-256)"
 }
