@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.2",
+    "version":  "1.0.3",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "7886354c1c03a181a356fed92d655edf8e088eff8eab4536df30379c8b87ea84",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.2/Wconect-VoIP_1.0.2.exe",
-    "published_at":  "2026-07-27T13:23:10Z",
-    "notes":  "- Corrigido um problema que podia travar o app ao abrir, afetando o ícone da bandeja do sistema (abrir/fechar por lá)\n- Diálogo de atualização disponível reformatado, mais organizado e fácil de ler"
+    "installer_sha256":  "fff6392db15e1087d64aadda0d8782145bdef3e7b8882f301ddf2bf6936c3418",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.3/Wconect-VoIP_1.0.3.exe",
+    "published_at":  "2026-07-27T13:41:29Z",
+    "notes":  "- Aviso de atualização reorganizado numa janela própria, sempre centralizada e no monitor certo"
 }
