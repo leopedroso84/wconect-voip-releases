@@ -1,106 +1,133 @@
-# Notas da VersÃ£o â€” Wconect VoIP 1.0.1
+# Notas da VersÃ£o â€” Wconect VoIP 1.0.2
 
-## ðŸ”§ CorreÃ§Ãµes e melhorias
+## ðŸ”§ CorreÃ§Ã£o importante
 
-VersÃ£o de manutenÃ§Ã£o sobre a base **1.0**, focada em corrigir o
-controle de volume do DTMF e em melhorar a experiÃªncia do popup de
-chamada recebida em ambientes com mÃºltiplos monitores.
+Corrigimos um problema que podia travar o aplicativo logo ao abrir,
+afetando o funcionamento correto do Ã­cone na bandeja do sistema
+(aquele Ã­cone perto do relÃ³gio, usado para abrir ou fechar o Wconect
+VoIP). Com essa correÃ§Ã£o, o app abre normalmente e o menu do Ã­cone da
+bandeja volta a funcionar como esperado.
 
 ---
 
-## ðŸŽšï¸ Volumes
+## ðŸ–¥ï¸ DiÃ¡logo "AtualizaÃ§Ã£o disponÃ­vel"
 
-- Corrigida a ordem de aplicaÃ§Ã£o do ganho na porta de DTMF/teste de
-  alto-falante (agora alinhada ao mesmo padrÃ£o jÃ¡ usado por Toque e
-  Ringback), eliminando a inconsistÃªncia encontrada numa auditoria
+- Visual reorganizado, mais limpo e alinhado ao restante do app.
+- A lista de novidades de cada versÃ£o agora aparece bem formatada,
+  item por item.
+
+---
+
+**Wconect VoIP 1.0.2**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**â¬‡ï¸ Baixar a versÃ£o 1.0.2:** [Wconect-VoIP_1.0.2.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.2/Wconect-VoIP_1.0.2.exe)
+
+---
+
+# Notas da VersÃƒÂ£o Ã¢â‚¬â€ Wconect VoIP 1.0.1
+
+## Ã°Å¸â€Â§ CorreÃƒÂ§ÃƒÂµes e melhorias
+
+VersÃƒÂ£o de manutenÃƒÂ§ÃƒÂ£o sobre a base **1.0**, focada em corrigir o
+controle de volume do DTMF e em melhorar a experiÃƒÂªncia do popup de
+chamada recebida em ambientes com mÃƒÂºltiplos monitores.
+
+---
+
+## Ã°Å¸Å½Å¡Ã¯Â¸Â Volumes
+
+- Corrigida a ordem de aplicaÃƒÂ§ÃƒÂ£o do ganho na porta de DTMF/teste de
+  alto-falante (agora alinhada ao mesmo padrÃƒÂ£o jÃƒÂ¡ usado por Toque e
+  Ringback), eliminando a inconsistÃƒÂªncia encontrada numa auditoria
   completa dos 4 controles de volume (Toque, Ringback, Chamada, DTMF).
 
 ---
 
-## ðŸ“ž Chamada recebida
+## Ã°Å¸â€œÅ¾ Chamada recebida
 
 - O popup de chamada recebida agora abre sempre **centralizado no mesmo
-  monitor** em que a janela principal estÃ¡, mesmo em configuraÃ§Ãµes
+  monitor** em que a janela principal estÃƒÂ¡, mesmo em configuraÃƒÂ§ÃƒÂµes
   multi-monitor.
 - Adicionado o logotipo oficial do Wconect no topo do popup.
 
 ---
 
-## ðŸ› ï¸ Infraestrutura interna
+## Ã°Å¸â€ºÂ Ã¯Â¸Â Infraestrutura interna
 
-- Adicionada instrumentaÃ§Ã£o permanente de diagnÃ³stico do pipeline de
-  Ã¡udio nativo (PJSIP), ativa somente em builds de desenvolvimento â€”
-  sem nenhum impacto na versÃ£o instalada pelos usuÃ¡rios.
+- Adicionada instrumentaÃƒÂ§ÃƒÂ£o permanente de diagnÃƒÂ³stico do pipeline de
+  ÃƒÂ¡udio nativo (PJSIP), ativa somente em builds de desenvolvimento Ã¢â‚¬â€
+  sem nenhum impacto na versÃƒÂ£o instalada pelos usuÃƒÂ¡rios.
 
 ---
 
 **Wconect VoIP 1.0.1**
 *Conectando pessoas com qualidade, desempenho e simplicidade.*
 
-**â¬‡ï¸ Baixar a versÃ£o 1.0.1:** [Wconect-VoIP_1.0.1.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.1/Wconect-VoIP_1.0.1.exe)
+**Ã¢Â¬â€¡Ã¯Â¸Â Baixar a versÃƒÂ£o 1.0.1:** [Wconect-VoIP_1.0.1.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.1/Wconect-VoIP_1.0.1.exe)
 
 ---
 
-# Notas da VersÃƒÂ£o Ã¢â‚¬â€ Wconect VoIP 1.0
+# Notas da VersÃƒÆ’Ã‚Â£o ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Wconect VoIP 1.0
 
-## Ã°Å¸Å¡â‚¬ Bem-vindo ao Wconect VoIP 1.0
+## ÃƒÂ°Ã…Â¸Ã…Â¡Ã¢â€šÂ¬ Bem-vindo ao Wconect VoIP 1.0
 
-Ãƒâ€° com grande satisfaÃƒÂ§ÃƒÂ£o que apresentamos a primeira versÃƒÂ£o oficial do **Wconect VoIP**, um softphone desenvolvido para oferecer uma experiÃƒÂªncia moderna, rÃƒÂ¡pida, segura e intuitiva para comunicaÃƒÂ§ÃƒÂ£o corporativa.
+ÃƒÆ’Ã¢â‚¬Â° com grande satisfaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o que apresentamos a primeira versÃƒÆ’Ã‚Â£o oficial do **Wconect VoIP**, um softphone desenvolvido para oferecer uma experiÃƒÆ’Ã‚Âªncia moderna, rÃƒÆ’Ã‚Â¡pida, segura e intuitiva para comunicaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o corporativa.
 
-Desenvolvido com Flutter e utilizando o PJSIP como motor SIP nativo, o Wconect VoIP foi projetado para oferecer alta qualidade nas chamadas, excelente desempenho e uma base sÃƒÂ³lida para futuras evoluÃƒÂ§ÃƒÂµes.
+Desenvolvido com Flutter e utilizando o PJSIP como motor SIP nativo, o Wconect VoIP foi projetado para oferecer alta qualidade nas chamadas, excelente desempenho e uma base sÃƒÆ’Ã‚Â³lida para futuras evoluÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes.
 
 ---
 
-# Ã¢Å“Â¨ Novidades da VersÃƒÂ£o 1.0
+# ÃƒÂ¢Ã…â€œÃ‚Â¨ Novidades da VersÃƒÆ’Ã‚Â£o 1.0
 
-## Ã¢ËœÅ½Ã¯Â¸Â Telefonia SIP
+## ÃƒÂ¢Ã‹Å“Ã…Â½ÃƒÂ¯Ã‚Â¸Ã‚Â Telefonia SIP
 
 - Cadastro de contas SIP.
-- Registro automÃƒÂ¡tico no servidor.
-- ReconexÃƒÂ£o automÃƒÂ¡tica em caso de perda de conexÃƒÂ£o.
+- Registro automÃƒÆ’Ã‚Â¡tico no servidor.
+- ReconexÃƒÆ’Ã‚Â£o automÃƒÆ’Ã‚Â¡tica em caso de perda de conexÃƒÆ’Ã‚Â£o.
 - Compatibilidade com os principais PABXs SIP.
 - Monitoramento do status de registro em tempo real.
 
 ---
 
-## Ã°Å¸â€œÅ¾ Chamadas
+## ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…Â¾ Chamadas
 
-- RealizaÃƒÂ§ÃƒÂ£o de chamadas.
+- RealizaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de chamadas.
 - Recebimento de chamadas.
 - Encerramento de chamadas.
 - Chamada em espera (Hold).
-- TransferÃƒÂªncia assistida.
+- TransferÃƒÆ’Ã‚Âªncia assistida.
 - Envio de DTMF durante a chamada.
-- Atendimento automÃƒÂ¡tico (Auto Answer).
-- Modo NÃƒÂ£o Perturbe (DND).
+- Atendimento automÃƒÆ’Ã‚Â¡tico (Auto Answer).
+- Modo NÃƒÆ’Ã‚Â£o Perturbe (DND).
 
 ---
 
-## Ã°Å¸Å½Â§ ÃƒÂudio
+## ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â§ ÃƒÆ’Ã‚Âudio
 
-- SeleÃƒÂ§ÃƒÂ£o do dispositivo de entrada (microfone).
-- SeleÃƒÂ§ÃƒÂ£o do dispositivo de saÃƒÂ­da (alto-falantes e headsets).
+- SeleÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o do dispositivo de entrada (microfone).
+- SeleÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o do dispositivo de saÃƒÆ’Ã‚Â­da (alto-falantes e headsets).
 - Controle de volume.
 - Silenciar microfone (Mute).
 - Suporte para headsets USB.
 
 ---
 
-## Ã°Å¸Å½â„¢Ã¯Â¸Â GravaÃƒÂ§ÃƒÂ£o de Chamadas
+## ÃƒÂ°Ã…Â¸Ã…Â½Ã¢â€žÂ¢ÃƒÂ¯Ã‚Â¸Ã‚Â GravaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de Chamadas
 
-- GravaÃƒÂ§ÃƒÂ£o automÃƒÂ¡tica ou manual das chamadas.
-- ConfiguraÃƒÂ§ÃƒÂ£o da pasta de gravaÃƒÂ§ÃƒÂ£o.
+- GravaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o automÃƒÆ’Ã‚Â¡tica ou manual das chamadas.
+- ConfiguraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o da pasta de gravaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o.
 - Arquivos identificados automaticamente com:
-  - NÃƒÂºmero do telefone.
+  - NÃƒÆ’Ã‚Âºmero do telefone.
   - Data.
   - Hora.
-- ConfiguraÃƒÂ§ÃƒÂµes persistidas automaticamente.
+- ConfiguraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes persistidas automaticamente.
 
 ---
 
-## Ã°Å¸â€œÅ  Monitoramento em Tempo Real
+## ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…Â  Monitoramento em Tempo Real
 
-Durante as chamadas o sistema apresenta informaÃƒÂ§ÃƒÂµes tÃƒÂ©cnicas como:
+Durante as chamadas o sistema apresenta informaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes tÃƒÆ’Ã‚Â©cnicas como:
 
 - Tempo da chamada.
 - Codec utilizado.
@@ -109,100 +136,100 @@ Durante as chamadas o sistema apresenta informaÃƒÂ§ÃƒÂµes tÃƒÂ©cnica
 - Jitter.
 - Perda de pacotes.
 - MOS estimado.
-- ClassificaÃƒÂ§ÃƒÂ£o da qualidade da chamada.
+- ClassificaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o da qualidade da chamada.
 
 ---
 
-## Ã°Å¸Å½Å¡Ã¯Â¸Â Gerenciamento de Codecs
+## ÃƒÂ°Ã…Â¸Ã…Â½Ã…Â¡ÃƒÂ¯Ã‚Â¸Ã‚Â Gerenciamento de Codecs
 
 - Lista completa de codecs suportados.
-- AtivaÃƒÂ§ÃƒÂ£o e desativaÃƒÂ§ÃƒÂ£o individual.
-- ReordenaÃƒÂ§ÃƒÂ£o por prioridade atravÃƒÂ©s de Drag & Drop.
-- AplicaÃƒÂ§ÃƒÂ£o automÃƒÂ¡tica das prioridades ao PJSIP.
-- Salvamento automÃƒÂ¡tico das preferÃƒÂªncias.
+- AtivaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o e desativaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o individual.
+- ReordenaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o por prioridade atravÃƒÆ’Ã‚Â©s de Drag & Drop.
+- AplicaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o automÃƒÆ’Ã‚Â¡tica das prioridades ao PJSIP.
+- Salvamento automÃƒÆ’Ã‚Â¡tico das preferÃƒÆ’Ã‚Âªncias.
 
 ---
 
-## Ã¢Å¡â„¢Ã¯Â¸Â ConfiguraÃƒÂ§ÃƒÂµes
+## ÃƒÂ¢Ã…Â¡Ã¢â€žÂ¢ÃƒÂ¯Ã‚Â¸Ã‚Â ConfiguraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes
 
 O sistema permite configurar:
 
-- Nome de exibiÃƒÂ§ÃƒÂ£o.
+- Nome de exibiÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o.
 - Servidor SIP.
 - Ramal.
 - Senha.
 - Porta.
 - Transporte SIP.
-- Dispositivos de ÃƒÂ¡udio.
-- GravaÃƒÂ§ÃƒÂ£o de chamadas.
+- Dispositivos de ÃƒÆ’Ã‚Â¡udio.
+- GravaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de chamadas.
 - Codecs.
-- PreferÃƒÂªncias gerais.
+- PreferÃƒÆ’Ã‚Âªncias gerais.
 
 ---
 
-## Ã°Å¸â€“Â¥Ã¯Â¸Â Interface
+## ÃƒÂ°Ã…Â¸Ã¢â‚¬â€œÃ‚Â¥ÃƒÂ¯Ã‚Â¸Ã‚Â Interface
 
 - Interface moderna desenvolvida em Flutter.
 - Otimizada para Windows.
 - Layout compacto.
 - Componentes responsivos.
-- NavegaÃƒÂ§ÃƒÂ£o simples e intuitiva.
-- ConfiguraÃƒÂ§ÃƒÂµes organizadas por categorias.
+- NavegaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o simples e intuitiva.
+- ConfiguraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes organizadas por categorias.
 
 ---
 
-## Ã°Å¸â€â€ž AtualizaÃƒÂ§ÃƒÂµes
+## ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ¢â‚¬Å¾ AtualizaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes
 
-- Estrutura preparada para atualizaÃƒÂ§ÃƒÂ£o automÃƒÂ¡tica.
-- VerificaÃƒÂ§ÃƒÂ£o de novas versÃƒÂµes.
-- Processo simplificado de atualizaÃƒÂ§ÃƒÂ£o.
+- Estrutura preparada para atualizaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o automÃƒÆ’Ã‚Â¡tica.
+- VerificaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de novas versÃƒÆ’Ã‚Âµes.
+- Processo simplificado de atualizaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o.
 
 ---
 
-## Ã°Å¸â€ºÂ Ã¯Â¸Â Plataforma
+## ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂºÃ‚Â ÃƒÂ¯Ã‚Â¸Ã‚Â Plataforma
 
 - Microsoft Windows.
 - Interface desenvolvida em Flutter.
 - Motor SIP baseado em PJSIP.
-- IntegraÃƒÂ§ÃƒÂ£o nativa com Opus.
-- IntegraÃƒÂ§ÃƒÂ£o nativa com bcg729.
+- IntegraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o nativa com Opus.
+- IntegraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o nativa com bcg729.
 - Alto desempenho utilizando bibliotecas nativas.
 
 ---
 
-## Ã°Å¸â€â€™ Estabilidade
+## ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ¢â‚¬â„¢ Estabilidade
 
-- ReconexÃƒÂ£o automÃƒÂ¡tica da conta SIP.
-- PersistÃƒÂªncia automÃƒÂ¡tica das configuraÃƒÂ§ÃƒÂµes.
-- Tratamento de exceÃƒÂ§ÃƒÂµes.
+- ReconexÃƒÆ’Ã‚Â£o automÃƒÆ’Ã‚Â¡tica da conta SIP.
+- PersistÃƒÆ’Ã‚Âªncia automÃƒÆ’Ã‚Â¡tica das configuraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes.
+- Tratamento de exceÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes.
 - Melhorias na estabilidade da interface.
-- CorreÃƒÂ§ÃƒÂµes no sistema de reordenaÃƒÂ§ÃƒÂ£o de codecs.
+- CorreÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes no sistema de reordenaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de codecs.
 
 ---
 
-# Ã°Å¸Å’Å¸ Destaques da VersÃƒÂ£o 1.0
+# ÃƒÂ°Ã…Â¸Ã…â€™Ã…Â¸ Destaques da VersÃƒÆ’Ã‚Â£o 1.0
 
 - Interface totalmente desenvolvida para ambiente desktop.
-- IntegraÃƒÂ§ÃƒÂ£o nativa com PJSIP.
+- IntegraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o nativa com PJSIP.
 - Painel de qualidade da chamada em tempo real.
 - Sistema de gerenciamento de codecs.
-- TransferÃƒÂªncia assistida.
+- TransferÃƒÆ’Ã‚Âªncia assistida.
 - Hold.
 - Mute.
 - DTMF.
 - Auto Answer.
-- NÃƒÂ£o Perturbe (DND).
-- GravaÃƒÂ§ÃƒÂ£o de chamadas.
-- ConfiguraÃƒÂ§ÃƒÂ£o avanÃƒÂ§ada de ÃƒÂ¡udio.
-- Base preparada para futuras integraÃƒÂ§ÃƒÂµes e novas funcionalidades.
+- NÃƒÆ’Ã‚Â£o Perturbe (DND).
+- GravaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de chamadas.
+- ConfiguraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o avanÃƒÆ’Ã‚Â§ada de ÃƒÆ’Ã‚Â¡udio.
+- Base preparada para futuras integraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes e novas funcionalidades.
 
 ---
 
-# Ã°Å¸â€™â„¢ Agradecimentos
+# ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã¢â€žÂ¢ Agradecimentos
 
-A versÃƒÂ£o **1.0** marca o inÃƒÂ­cio de um projeto desenvolvido para oferecer uma soluÃƒÂ§ÃƒÂ£o de telefonia moderna, estÃƒÂ¡vel e eficiente.
+A versÃƒÆ’Ã‚Â£o **1.0** marca o inÃƒÆ’Ã‚Â­cio de um projeto desenvolvido para oferecer uma soluÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de telefonia moderna, estÃƒÆ’Ã‚Â¡vel e eficiente.
 
-Continuaremos evoluindo o Wconect VoIP com novos recursos, melhorias de desempenho e novas integraÃƒÂ§ÃƒÂµes para proporcionar uma experiÃƒÂªncia cada vez melhor aos usuÃƒÂ¡rios.
+Continuaremos evoluindo o Wconect VoIP com novos recursos, melhorias de desempenho e novas integraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes para proporcionar uma experiÃƒÆ’Ã‚Âªncia cada vez melhor aos usuÃƒÆ’Ã‚Â¡rios.
 
 Obrigado por utilizar o **Wconect VoIP**!
 
@@ -211,4 +238,4 @@ Obrigado por utilizar o **Wconect VoIP**!
 **Wconect VoIP 1.0**
 *Conectando pessoas com qualidade, desempenho e simplicidade.*
 
-**Ã¢Â¬â€¡Ã¯Â¸Â Baixar a versÃƒÂ£o 1.0.0:** [Wconect-VoIP_1.0.0.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.0/Wconect-VoIP_1.0.0.exe)
+**ÃƒÂ¢Ã‚Â¬Ã¢â‚¬Â¡ÃƒÂ¯Ã‚Â¸Ã‚Â Baixar a versÃƒÆ’Ã‚Â£o 1.0.0:** [Wconect-VoIP_1.0.0.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.0/Wconect-VoIP_1.0.0.exe)
