@@ -1,8 +1,8 @@
 {
-    "version": "1.0.0",
-    "installer_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256": "0e9a88d3e2d45a999d8e79f75593ff164b7f6f025509af583af3712f58966f4c",
-    "archive_url": "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.0/Wconect-VoIP_1.0.0.exe",
-    "published_at": "2026-07-26T12:15:00Z",
-    "notes": "- Telefonia SIP completa: chamadas, hold, transferência assistida, DTMF, DND\n- Suporte a headsets HID (atender, desligar, mudo, espera pelos botões físicos)\n- Gravação de chamadas corrigida e com pasta configurável\n- Painel de qualidade da chamada em tempo real (MOS, jitter, RTT, perda de pacotes)\n- Gerenciamento de codecs por arrastar e soltar\n- Verificação automática de atualização com validação de integridade (SHA-256)"
+    "version":  "1.0.1",
+    "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
+    "installer_sha256":  "e3ee3b5494ca2f90cdb6b2cfdf089313645f155f7f8bd083fa69f8c59daea2cc",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.1/Wconect-VoIP_1.0.1.exe",
+    "published_at":  "2026-07-27T12:56:07Z",
+    "notes":  "- Correção do volume do DTMF (ordem de aplicação do ganho alinhada ao padrão de Toque/Ringback)\n- Popup de chamada recebida agora abre sempre no mesmo monitor da janela principal\n- Logotipo oficial adicionado ao popup de chamada recebida\n- Instrumentação permanente de diagnóstico de áudio (somente builds de desenvolvimento)"
 }
