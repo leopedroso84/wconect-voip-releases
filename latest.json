@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.5",
+    "version":  "1.0.6",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "13a814994af12e9ac050e9cbfaebd595ff306dcf04875703469d731e09c9f757",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.5/Wconect-VoIP_1.0.5.exe",
-    "published_at":  "2026-07-27T14:30:29Z",
-    "notes":  "- Aviso de atualização agora aparece quase na hora após uma nova versão ser publicada"
+    "installer_sha256":  "a370cebe85ad9ad5cd8dc377d79323b39db0160ec8a08c3c544c0d4014538931",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.6/Wconect-VoIP_1.0.6.exe",
+    "published_at":  "2026-07-27T17:22:17Z",
+    "notes":  "- Popup de chamada recebida reorganizado: sem logo/ícone, texto centralizado"
 }
