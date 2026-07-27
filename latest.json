@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.3",
+    "version":  "1.0.4",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "fff6392db15e1087d64aadda0d8782145bdef3e7b8882f301ddf2bf6936c3418",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.3/Wconect-VoIP_1.0.3.exe",
-    "published_at":  "2026-07-27T13:41:29Z",
-    "notes":  "- Aviso de atualização reorganizado numa janela própria, sempre centralizada e no monitor certo"
+    "installer_sha256":  "23b02d97af4128d73a065eb38ecbe3b91c59a974a6455fb61e9c6ceea749e88d",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.4/Wconect-VoIP_1.0.4.exe",
+    "published_at":  "2026-07-27T14:22:27Z",
+    "notes":  "- Codec Opus (alta qualidade de áudio) habilitado novamente"
 }
