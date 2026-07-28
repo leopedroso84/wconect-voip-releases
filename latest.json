@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.14",
+    "version":  "1.0.15",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "617370063c5cc53750a557d1c08661720f0bf8fd3a5e2650893a8c71abc9c527",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.14/Wconect-VoIP_1.0.14.exe",
-    "published_at":  "2026-07-27T23:14:49Z",
-    "notes":  "- Corrige janela de atualizacao desalinhada com o app minimizado"
+    "installer_sha256":  "663ee64724716ff589e952bdd5047c010a7af3a1b809f46875b69489f1cc2dd7",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.15/Wconect-VoIP_1.0.15.exe",
+    "published_at":  "2026-07-28T14:01:13Z",
+    "notes":  "- Correção da exibição de ramais internos\n- Ramais como 1021 agora aparecem no formato correto no popup"
 }
