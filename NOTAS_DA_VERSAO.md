@@ -1,22 +1,22 @@
-# Notas da VersÃ£o â€” Wconect VoIP 1.0.19
+# Notas da Versão — Wconect VoIP 1.0.19
 
-## ðŸ“Š InvestigaÃ§Ã£o de quedas de chamada
+## 📊 Investigação de quedas de chamada
 
-- Cada chamada agora recebe um identificador Ãºnico, registrado do inÃ­cio
-  ao fim - facilita cruzar o log com o histÃ³rico de chamadas.
-- Ao encerrar, o log registra ramal, destino, duraÃ§Ã£o, cÃ³digo SIP e a
-  origem do encerramento (vocÃª desligou, o destino recusou/estava
+- Cada chamada agora recebe um identificador único, registrado do início
+  ao fim - facilita cruzar o log com o histórico de chamadas.
+- Ao encerrar, o log registra ramal, destino, duração, código SIP e a
+  origem do encerramento (você desligou, o destino recusou/estava
   ocupado, o PABX encerrou, ou o outro lado desligou) - base para
-  identificar com precisÃ£o a causa de quedas de chamada relatadas.
+  identificar com precisão a causa de quedas de chamada relatadas.
 
-## ðŸ©º InstrumentaÃ§Ã£o permanente
+## 🩺 Instrumentação permanente
 
 - Eventos de minimizar, restaurar, maximizar e foco da janela principal
-  agora ficam registrados no log (antes nÃ£o deixavam nenhum rastro).
-- Eventos do headset (tirar do gancho, mudo, espera) agora sÃ£o
-  registrados tambÃ©m em produÃ§Ã£o, nÃ£o sÃ³ em builds de desenvolvimento.
+  agora ficam registrados no log (antes não deixavam nenhum rastro).
+- Eventos do headset (tirar do gancho, mudo, espera) agora são
+  registrados também em produção, não só em builds de desenvolvimento.
 - Cada linha do log agora identifica de qual janela/processo interno
-  ela veio, facilitando reconstruir a sequÃªncia de eventos de um
+  ela veio, facilitando reconstruir a sequência de eventos de um
   travamento relatado.
 
 ---
@@ -28,73 +28,43 @@
 
 ---
 
-# Notas da VersÃ£o â€” Wconect VoIP 1.0.19
+# Notas da Versão — Wconect VoIP 1.0.18
 
-## ðŸ“Š InvestigaÃ§Ã£o de quedas de chamada
-
-- Cada chamada agora recebe um identificador Ãºnico, registrado do inÃ­cio
-  ao fim - facilita cruzar o log com o histÃ³rico de chamadas.
-- Ao encerrar, o log registra ramal, destino, duraÃ§Ã£o, cÃ³digo SIP e a
-  origem do encerramento (vocÃª desligou, o destino recusou/estava
-  ocupado, o PABX encerrou, ou o outro lado desligou) - base para
-  identificar com precisÃ£o a causa de quedas de chamada relatadas.
-
-## ðŸ©º InstrumentaÃ§Ã£o permanente
-
-- Eventos de minimizar, restaurar, maximizar e foco da janela principal
-  agora ficam registrados no log (antes nÃ£o deixavam nenhum rastro).
-- Eventos do headset (tirar do gancho, mudo, espera) agora sÃ£o
-  registrados tambÃ©m em produÃ§Ã£o, nÃ£o sÃ³ em builds de desenvolvimento.
-- Cada linha do log agora identifica de qual janela/processo interno
-  ela veio, facilitando reconstruir a sequÃªncia de eventos de um
-  travamento relatado.
-
----
-
-**Wconect VoIP 1.0.19**
-*Conectando pessoas com qualidade, desempenho e simplicidade.*
-
-**⬇️ Baixar a versão 1.0.19:** [Wconect-VoIP_1.0.19.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.19/Wconect-VoIP_1.0.19.exe)
-
----
-
-# Notas da VersÃ£o â€” Wconect VoIP 1.0.18
-
-## ðŸ› ï¸ Estabilidade (causa raiz do travamento da bandeja)
+## 🛠️ Estabilidade (causa raiz do travamento da bandeja)
 
 Analisamos ao vivo um crash real (log de eventos do Windows + dump completo de
-memÃ³ria) e identificamos duas causas concretas de corrupÃ§Ã£o de memÃ³ria:
+memória) e identificamos duas causas concretas de corrupção de memória:
 
-- **`screen_retriever` (detecÃ§Ã£o de monitor)**: o cÃ³digo nativo nÃ£o checava
-  se a chamada ao Windows para obter informaÃ§Ãµes do monitor tinha sucesso.
-  Quando falhava (situaÃ§Ã£o real, ligada a mudanÃ§as no estado dos monitores),
-  o app seguia usando dados de memÃ³ria nÃ£o inicializados como se fossem
-  vÃ¡lidos - uma causa direta de corrupÃ§Ã£o de memÃ³ria. Corrigido.
-- **ComunicaÃ§Ã£o entre janelas** (popup de chamada recebida, janela de
-  atualizaÃ§Ã£o, janela "Sobre"): uma desreferÃªncia de ponteiro nulo nÃ£o
-  verificada foi corrigida no mecanismo usado por toda essa comunicaÃ§Ã£o.
+- **`screen_retriever` (detecção de monitor)**: o código nativo não checava
+  se a chamada ao Windows para obter informações do monitor tinha sucesso.
+  Quando falhava (situação real, ligada a mudanças no estado dos monitores),
+  o app seguia usando dados de memória não inicializados como se fossem
+  válidos - uma causa direta de corrupção de memória. Corrigido.
+- **Comunicação entre janelas** (popup de chamada recebida, janela de
+  atualização, janela "Sobre"): uma desreferência de ponteiro nulo não
+  verificada foi corrigida no mecanismo usado por toda essa comunicação.
 
-Essas duas correÃ§Ãµes foram encontradas ao analisar um dump de memÃ³ria real de
-um travamento capturado em produÃ§Ã£o - nÃ£o sÃ£o apenas hipÃ³teses.
+Essas duas correções foram encontradas ao analisar um dump de memória real de
+um travamento capturado em produção - não são apenas hipóteses.
 
-## â˜Žï¸ Discagem de cÃ³digos do PABX
+## ☎️ Discagem de códigos do PABX
 
-- Corrigido um bug real que impedia discar cÃ³digos de facilidade do PABX
-  (transferÃªncia, estacionamento, captura de ligaÃ§Ã£o, correio de voz, etc. -
-  ex.: `*2`, `#2`, `*8`, `*21`, `*68` + ramal, `*0*`). Esses cÃ³digos agora sÃ£o
-  discados normalmente, a qualquer momento, sem passar pela validaÃ§Ã£o de
-  nÃºmero de telefone.
+- Corrigido um bug real que impedia discar códigos de facilidade do PABX
+  (transferência, estacionamento, captura de ligação, correio de voz, etc. -
+  ex.: `*2`, `#2`, `*8`, `*21`, `*68` + ramal, `*0*`). Esses códigos agora são
+  discados normalmente, a qualquer momento, sem passar pela validação de
+  número de telefone.
 
-## ðŸ“ž LigaÃ§Ã£o ativa
+## 📞 Ligação ativa
 
 - A janela principal agora permanece sempre em primeiro plano enquanto
-  houver uma ligaÃ§Ã£o ativa, mesmo navegando em outras janelas/telas -
-  facilita monitorar e usar espera/mudo sem perder a ligaÃ§Ã£o de vista.
-  Volta ao comportamento normal assim que a ligaÃ§Ã£o termina.
+  houver uma ligação ativa, mesmo navegando em outras janelas/telas -
+  facilita monitorar e usar espera/mudo sem perder a ligação de vista.
+  Volta ao comportamento normal assim que a ligação termina.
 
-## ðŸ©º DiagnÃ³stico HID
+## 🩺 Diagnóstico HID
 
-- Corrigida quebra de texto letra-por-letra no painel de diagnÃ³stico HID
+- Corrigida quebra de texto letra-por-letra no painel de diagnóstico HID
   (modo desenvolvedor) em janela estreita.
 
 ---
@@ -106,35 +76,35 @@ um travamento capturado em produÃ§Ã£o - nÃ£o sÃ£o apenas hipÃ³teses.
 
 ---
 
-# Notas da VersÃ£o â€” Wconect VoIP 1.0.17
+# Notas da Versão — Wconect VoIP 1.0.17
 
-## ðŸ“ž Chamada recebida
+## 📞 Chamada recebida
 
-- BotÃµes invertidos: **Atender** agora fica Ã  esquerda e **Recusar** Ã  direita,
-  reduzindo erro de operaÃ§Ã£o ao atender rÃ¡pido.
+- Botões invertidos: **Atender** agora fica à esquerda e **Recusar** à direita,
+  reduzindo erro de operação ao atender rápido.
 
-## â˜Žï¸ Discagem
+## ☎️ Discagem
 
-- NÃºmeros digitados, colados ou vindos de Recentes/Contatos agora sÃ£o
-  normalizados automaticamente para o padrÃ£o que o PABX espera, aceitando
-  qualquer formataÃ§Ã£o (espaÃ§os, parÃªnteses, hÃ­fen, ponto, "+55"/"55"/"0055").
-  NÃºmeros invÃ¡lidos sÃ£o bloqueados com um aviso claro em vez de simplesmente
-  nÃ£o discar.
+- Números digitados, colados ou vindos de Recentes/Contatos agora são
+  normalizados automaticamente para o padrão que o PABX espera, aceitando
+  qualquer formatação (espaços, parênteses, hífen, ponto, "+55"/"55"/"0055").
+  Números inválidos são bloqueados com um aviso claro em vez de simplesmente
+  não discar.
 
-## ðŸ”” Fim de chamada
+## 🔔 Fim de chamada
 
 - Um bipe curto agora toca sempre que uma chamada termina de verdade
-  (vocÃª desliga, o outro lado desliga, o PABX encerra, ou uma transferÃªncia
-  assistida Ã© concluÃ­da) - nunca ao iniciar ou durante uma transferÃªncia.
+  (você desliga, o outro lado desliga, o PABX encerra, ou uma transferência
+  assistida é concluída) - nunca ao iniciar ou durante uma transferência.
 
-## ðŸ› ï¸ Estabilidade
+## 🛠️ Estabilidade
 
-- Corrigido vazamento de recursos (Ã­cone/menu) da bandeja do sistema e um
-  bug conhecido em que o menu de contexto Ã s vezes nÃ£o fechava direito.
-- ReforÃ§ada a proteÃ§Ã£o contra travamentos: callbacks da bandeja e do
+- Corrigido vazamento de recursos (ícone/menu) da bandeja do sistema e um
+  bug conhecido em que o menu de contexto às vezes não fechava direito.
+- Reforçada a proteção contra travamentos: callbacks da bandeja e do
   headset agora nunca derrubam o aplicativo, mesmo em caso de erro
   inesperado.
-- Corrigida a quebra de texto letra-por-letra no painel de diagnÃ³stico
+- Corrigida a quebra de texto letra-por-letra no painel de diagnóstico
   HID (modo desenvolvedor) em janela estreita.
 
 ---
