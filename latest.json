@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.19",
+    "version":  "1.0.20",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "af624637bb1e494f73bbace02b177dd699de7b2f57b462f5397abc6436b61910",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.19/Wconect-VoIP_1.0.19.exe",
-    "published_at":  "2026-07-30T21:19:34Z",
-    "notes":  "- Identificador único e log detalhado por chamada (ramal, destino, duração, código SIP, quem encerrou)\n- Instrumentação permanente: minimizar/restaurar/foco e eventos de headset agora registrados"
+    "installer_sha256":  "d59330d45a89444bb101ece8387eeee92e8d7107b6fdac938c1841ac450b37b7",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.20/Wconect-VoIP_1.0.20.exe",
+    "published_at":  "2026-07-30T23:09:56Z",
+    "notes":  "- Indicador de audio em ligacao modula desde o toque\n- Checagem de atualizacao mais rapida (3 minutos)"
 }

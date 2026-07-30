@@ -1,3 +1,22 @@
+# Notas da Versão — Wconect VoIP 1.0.20
+
+## 📞 Melhorias na experiência de chamada
+
+- O indicador visual de "em ligação" agora já modula assim que a
+  chamada começa a tocar, em vez de só depois de atendida - reforça
+  que a ligação está em andamento.
+- Checagem automática de atualização ficou mais rápida (a cada 3
+  minutos, em vez de 15).
+
+---
+
+**Wconect VoIP 1.0.20**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.20:** [Wconect-VoIP_1.0.20.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.20/Wconect-VoIP_1.0.20.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.19
 
 ## 📊 Investigação de quedas de chamada
