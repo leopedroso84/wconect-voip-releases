@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.18",
+    "version":  "1.0.19",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "b7b9ee9b8257e46c8c93aea32f4a90a67e7a62618fdcccde8753a81c9038d9d8",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.18/Wconect-VoIP_1.0.18.exe",
-    "published_at":  "2026-07-30T20:55:45Z",
-    "notes":  "- Correção de causa raiz do travamento da bandeja (corrupção de memória confirmada via dump real)\n- Discagem de códigos de facilidade do PABX (*2, #2, *8, *21 etc.) corrigida\n- Janela principal sempre em primeiro plano durante ligação ativa"
+    "installer_sha256":  "441f96077a6ae2a38ca24fe51b2ff562e61fcca75fd6266dfc1a18ea4d869295",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.19/Wconect-VoIP_1.0.19.exe",
+    "published_at":  "2026-07-30T21:05:02Z",
+    "notes":  "- Identificador único e log detalhado por chamada (ramal, destino, duração, código SIP, quem encerrou)\n- Instrumentação permanente: minimizar/restaurar/foco e eventos de headset agora registrados"
 }
