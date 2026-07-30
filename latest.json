@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.16",
+    "version":  "1.0.17",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "a4c50a92d51ac21d90287c5ba80abdc3e2c2e49f95b4166ed7178ced6c8798e8",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.16/Wconect-VoIP_1.0.16.exe",
-    "published_at":  "2026-07-28T14:10:25Z",
-    "notes":  "- Corrigido o aviso de atualização que reaparecia após atualizar\n- Verificação de versão protegida contra divergências futuras"
+    "installer_sha256":  "ce538b0d7aead5e63545e77f3ce58e6057c9ca0df7ccbcd59cf2c333f3c328b9",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.17/Wconect-VoIP_1.0.17.exe",
+    "published_at":  "2026-07-30T17:46:56Z",
+    "notes":  "- Botões Atender/Recusar invertidos na chamada recebida\n- Números discados normalizados automaticamente para o padrão do PABX\n- Bipe curto ao final de toda chamada\n- Corrigido vazamento de recursos da bandeja do sistema"
 }

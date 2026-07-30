@@ -1,3 +1,43 @@
+# Notas da VersÃ£o â€” Wconect VoIP 1.0.17
+
+## ðŸ“ž Chamada recebida
+
+- BotÃµes invertidos: **Atender** agora fica Ã  esquerda e **Recusar** Ã  direita,
+  reduzindo erro de operaÃ§Ã£o ao atender rÃ¡pido.
+
+## â˜Žï¸ Discagem
+
+- NÃºmeros digitados, colados ou vindos de Recentes/Contatos agora sÃ£o
+  normalizados automaticamente para o padrÃ£o que o PABX espera, aceitando
+  qualquer formataÃ§Ã£o (espaÃ§os, parÃªnteses, hÃ­fen, ponto, "+55"/"55"/"0055").
+  NÃºmeros invÃ¡lidos sÃ£o bloqueados com um aviso claro em vez de simplesmente
+  nÃ£o discar.
+
+## ðŸ”” Fim de chamada
+
+- Um bipe curto agora toca sempre que uma chamada termina de verdade
+  (vocÃª desliga, o outro lado desliga, o PABX encerra, ou uma transferÃªncia
+  assistida Ã© concluÃ­da) - nunca ao iniciar ou durante uma transferÃªncia.
+
+## ðŸ› ï¸ Estabilidade
+
+- Corrigido vazamento de recursos (Ã­cone/menu) da bandeja do sistema e um
+  bug conhecido em que o menu de contexto Ã s vezes nÃ£o fechava direito.
+- ReforÃ§ada a proteÃ§Ã£o contra travamentos: callbacks da bandeja e do
+  headset agora nunca derrubam o aplicativo, mesmo em caso de erro
+  inesperado.
+- Corrigida a quebra de texto letra-por-letra no painel de diagnÃ³stico
+  HID (modo desenvolvedor) em janela estreita.
+
+---
+
+**Wconect VoIP 1.0.17**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.17:** [Wconect-VoIP_1.0.17.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.17/Wconect-VoIP_1.0.17.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.16
 
 ## 🔄 Correção da atualização automática
