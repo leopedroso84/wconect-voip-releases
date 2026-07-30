@@ -28,6 +28,36 @@
 
 ---
 
+# Notas da VersÃ£o â€” Wconect VoIP 1.0.19
+
+## ðŸ“Š InvestigaÃ§Ã£o de quedas de chamada
+
+- Cada chamada agora recebe um identificador Ãºnico, registrado do inÃ­cio
+  ao fim - facilita cruzar o log com o histÃ³rico de chamadas.
+- Ao encerrar, o log registra ramal, destino, duraÃ§Ã£o, cÃ³digo SIP e a
+  origem do encerramento (vocÃª desligou, o destino recusou/estava
+  ocupado, o PABX encerrou, ou o outro lado desligou) - base para
+  identificar com precisÃ£o a causa de quedas de chamada relatadas.
+
+## ðŸ©º InstrumentaÃ§Ã£o permanente
+
+- Eventos de minimizar, restaurar, maximizar e foco da janela principal
+  agora ficam registrados no log (antes nÃ£o deixavam nenhum rastro).
+- Eventos do headset (tirar do gancho, mudo, espera) agora sÃ£o
+  registrados tambÃ©m em produÃ§Ã£o, nÃ£o sÃ³ em builds de desenvolvimento.
+- Cada linha do log agora identifica de qual janela/processo interno
+  ela veio, facilitando reconstruir a sequÃªncia de eventos de um
+  travamento relatado.
+
+---
+
+**Wconect VoIP 1.0.19**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.19:** [Wconect-VoIP_1.0.19.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.19/Wconect-VoIP_1.0.19.exe)
+
+---
+
 # Notas da VersÃ£o â€” Wconect VoIP 1.0.18
 
 ## ðŸ› ï¸ Estabilidade (causa raiz do travamento da bandeja)
