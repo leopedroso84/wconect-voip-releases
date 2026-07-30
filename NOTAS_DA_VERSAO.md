@@ -1,3 +1,51 @@
+# Notas da VersÃ£o â€” Wconect VoIP 1.0.18
+
+## ðŸ› ï¸ Estabilidade (causa raiz do travamento da bandeja)
+
+Analisamos ao vivo um crash real (log de eventos do Windows + dump completo de
+memÃ³ria) e identificamos duas causas concretas de corrupÃ§Ã£o de memÃ³ria:
+
+- **`screen_retriever` (detecÃ§Ã£o de monitor)**: o cÃ³digo nativo nÃ£o checava
+  se a chamada ao Windows para obter informaÃ§Ãµes do monitor tinha sucesso.
+  Quando falhava (situaÃ§Ã£o real, ligada a mudanÃ§as no estado dos monitores),
+  o app seguia usando dados de memÃ³ria nÃ£o inicializados como se fossem
+  vÃ¡lidos - uma causa direta de corrupÃ§Ã£o de memÃ³ria. Corrigido.
+- **ComunicaÃ§Ã£o entre janelas** (popup de chamada recebida, janela de
+  atualizaÃ§Ã£o, janela "Sobre"): uma desreferÃªncia de ponteiro nulo nÃ£o
+  verificada foi corrigida no mecanismo usado por toda essa comunicaÃ§Ã£o.
+
+Essas duas correÃ§Ãµes foram encontradas ao analisar um dump de memÃ³ria real de
+um travamento capturado em produÃ§Ã£o - nÃ£o sÃ£o apenas hipÃ³teses.
+
+## â˜Žï¸ Discagem de cÃ³digos do PABX
+
+- Corrigido um bug real que impedia discar cÃ³digos de facilidade do PABX
+  (transferÃªncia, estacionamento, captura de ligaÃ§Ã£o, correio de voz, etc. -
+  ex.: `*2`, `#2`, `*8`, `*21`, `*68` + ramal, `*0*`). Esses cÃ³digos agora sÃ£o
+  discados normalmente, a qualquer momento, sem passar pela validaÃ§Ã£o de
+  nÃºmero de telefone.
+
+## ðŸ“ž LigaÃ§Ã£o ativa
+
+- A janela principal agora permanece sempre em primeiro plano enquanto
+  houver uma ligaÃ§Ã£o ativa, mesmo navegando em outras janelas/telas -
+  facilita monitorar e usar espera/mudo sem perder a ligaÃ§Ã£o de vista.
+  Volta ao comportamento normal assim que a ligaÃ§Ã£o termina.
+
+## ðŸ©º DiagnÃ³stico HID
+
+- Corrigida quebra de texto letra-por-letra no painel de diagnÃ³stico HID
+  (modo desenvolvedor) em janela estreita.
+
+---
+
+**Wconect VoIP 1.0.18**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.18:** [Wconect-VoIP_1.0.18.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.18/Wconect-VoIP_1.0.18.exe)
+
+---
+
 # Notas da VersÃ£o â€” Wconect VoIP 1.0.17
 
 ## ðŸ“ž Chamada recebida

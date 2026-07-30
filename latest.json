@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.17",
+    "version":  "1.0.18",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "ce538b0d7aead5e63545e77f3ce58e6057c9ca0df7ccbcd59cf2c333f3c328b9",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.17/Wconect-VoIP_1.0.17.exe",
-    "published_at":  "2026-07-30T17:46:56Z",
-    "notes":  "- Botões Atender/Recusar invertidos na chamada recebida\n- Números discados normalizados automaticamente para o padrão do PABX\n- Bipe curto ao final de toda chamada\n- Corrigido vazamento de recursos da bandeja do sistema"
+    "installer_sha256":  "b7b9ee9b8257e46c8c93aea32f4a90a67e7a62618fdcccde8753a81c9038d9d8",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.18/Wconect-VoIP_1.0.18.exe",
+    "published_at":  "2026-07-30T20:55:45Z",
+    "notes":  "- Correção de causa raiz do travamento da bandeja (corrupção de memória confirmada via dump real)\n- Discagem de códigos de facilidade do PABX (*2, #2, *8, *21 etc.) corrigida\n- Janela principal sempre em primeiro plano durante ligação ativa"
 }
