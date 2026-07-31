@@ -1,3 +1,23 @@
+# Notas da Versão — Wconect VoIP 1.0.25
+
+## 🔍 Diagnóstico de quedas de chamada - continuação
+
+- A queda de chamada entre os ramais 1011 e 1005 se repetiu com o mesmo
+  padrão (~88 segundos, código SIP 408) - identificamos que o log
+  técnico detalhado ainda não estava capturando o suficiente para
+  apontar a causa exata. Adicionado um novo ponto de verificação técnica
+  que vai revelar exatamente onde está a lacuna na próxima execução,
+  permitindo fechar esse diagnóstico com precisão.
+
+---
+
+**Wconect VoIP 1.0.25**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.25:** [Wconect-VoIP_1.0.25.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.25/Wconect-VoIP_1.0.25.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.24
 
 ## 🛠️ Bandeja do sistema - endurecimento adicional

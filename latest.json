@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.24",
+    "version":  "1.0.25",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "16ed7290d3e332fcad1841c6c724a74c37839636d841cc27553d2acf3db829f2",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.24/Wconect-VoIP_1.0.24.exe",
-    "published_at":  "2026-07-31T14:23:09Z",
-    "notes":  "- Análise real (WinDbg) confirma e endurece contra o crash da bandeja durante destruição de recursos\n- Corrigido vazamento de ícone ao atualizar a bandeja mais de uma vez"
+    "installer_sha256":  "845186b00a4d020543f3c1b6f812938cf69a2746d2689abc4ecccd7a39745ad8",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.25/Wconect-VoIP_1.0.25.exe",
+    "published_at":  "2026-07-31T19:59:16Z",
+    "notes":  "- Diagnóstico continua para a queda de chamada 1011→1005 (~88s, código 408)\n- Novo ponto de verificação técnica pra isolar a lacuna no log de mensagens SIP"
 }
