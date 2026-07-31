@@ -1,3 +1,30 @@
+# Notas da Versão — Wconect VoIP 1.0.23
+
+## 🔍 Diagnóstico de quedas de chamada - log SIP restaurado
+
+- O log detalhado do PJSIP (mensagens SIP completas, essencial para
+  investigar por que uma chamada caiu) tinha parado de ser gravado
+  silenciosamente há alguns dias, sem nenhum sintoma visível. Corrigido
+  com um mecanismo de gravação auto-recuperável, que nunca mais fica
+  "mudo" - a próxima queda de chamada terá o detalhe técnico completo
+  disponível para análise.
+
+## ☎️ Keep-Alive de rede agora funciona de verdade
+
+- A opção "Keep-Alive" em Configurações → Rede (Automático/Desativado)
+  não tinha nenhum efeito real até esta versão - agora é aplicada de
+  fato na conexão com o PABX. Ajuda a manter a ligação estável em redes
+  com NAT mais sensível.
+
+---
+
+**Wconect VoIP 1.0.23**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.23:** [Wconect-VoIP_1.0.23.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.23/Wconect-VoIP_1.0.23.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.22
 
 ## 🛠️ Estabilidade da bandeja - blindagem definitiva

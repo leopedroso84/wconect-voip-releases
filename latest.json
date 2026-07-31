@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.22",
+    "version":  "1.0.23",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "763b3bc5f1265260c3019f484bb8011fe2b1cc7d27971d308a4047bab894168e",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.22/Wconect-VoIP_1.0.22.exe",
-    "published_at":  "2026-07-31T11:34:39Z",
-    "notes":  "- Blindagem definitiva contra travamento da bandeja (proteção estrutural do próprio Windows, não só de exceções C++)"
+    "installer_sha256":  "2588d41976e1bfd104cb36e426da9e0c3602f74b3173baefffb16fa506a24c02",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.23/Wconect-VoIP_1.0.23.exe",
+    "published_at":  "2026-07-31T12:28:37Z",
+    "notes":  "- Log de diagnóstico de chamadas (PJSIP) restaurado - não fica mais mudo silenciosamente\n- Keep-Alive de rede (Configurações → Rede) agora tem efeito real na conexão"
 }
