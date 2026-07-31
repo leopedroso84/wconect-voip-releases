@@ -1,3 +1,27 @@
+# Notas da Versão — Wconect VoIP 1.0.26
+
+## ☎️ Queda de chamadas em ligações feitas pelo app - causa raiz corrigida
+
+- Identificamos com precisão a causa das quedas que aconteciam sempre
+  perto de 1 minuto e meio depois de a ligação ser atendida, sempre em
+  chamadas **feitas** pelo app (não em chamadas recebidas): o mecanismo
+  de renovação automática de sessão do protocolo SIP, usado pra detectar
+  chamadas "presas", estava encerrando a ligação sozinho quando essa
+  renovação não se completava a tempo - mesmo com a chamada e o áudio
+  funcionando perfeitamente.
+- Esse mecanismo foi desativado, já que este aplicativo não depende dele
+  para nada. Chamadas feitas pelo app não devem mais cair sozinhas por
+  esse motivo.
+
+---
+
+**Wconect VoIP 1.0.26**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.26:** [Wconect-VoIP_1.0.26.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.26/Wconect-VoIP_1.0.26.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.25
 
 ## 🔍 Diagnóstico de quedas de chamada - continuação
