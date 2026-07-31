@@ -1,3 +1,22 @@
+# Notas da Versão — Wconect VoIP 1.0.21
+
+## 🎧 Tela de Áudio reorganizada
+
+- Configurações agrupadas por função: Alto-falante, Microfone e Toques
+  e teclado, cada um reunindo tudo relacionado num só lugar.
+- Novo controle de Volume do microfone (0-100%, independente do
+  Boost) - agora dá pra reduzir o microfone direto pelo app, sem
+  precisar abrir as configurações de som do Windows.
+
+---
+
+**Wconect VoIP 1.0.21**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.21:** [Wconect-VoIP_1.0.21.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.21/Wconect-VoIP_1.0.21.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.20
 
 ## 📞 Melhorias na experiência de chamada
