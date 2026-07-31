@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.26",
+    "version":  "1.0.27",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "6186e3fac1ba432289e22d6bf7fbe7f81f4f28454ebc9a2e190ab5afcd157a13",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.26/Wconect-VoIP_1.0.26.exe",
-    "published_at":  "2026-07-31T20:20:01Z",
-    "notes":  "- Corrigida a causa raiz da queda de chamadas feitas pelo app (Session Timer SIP desativado)\n- Confirmado: só afetava chamadas originadas pelo app, não as recebidas"
+    "installer_sha256":  "a0cc89dd38278e7d89747031787f42aa33a4c10a168c3959296c2a4aaa47b477",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.27/Wconect-VoIP_1.0.27.exe",
+    "published_at":  "2026-07-31T20:27:08Z",
+    "notes":  "- Fase 1 do plano de estabilidade: reduzida a pressão de callbacks nativos do headset (diagnóstico não repete mais durante o toque)\n- Investigação de estabilidade continua com plano estruturado de 3 fases"
 }

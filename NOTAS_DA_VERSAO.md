@@ -1,3 +1,24 @@
+# Notas da Versão — Wconect VoIP 1.0.27
+
+## 🎧 Redução de pressão nos eventos do headset (Fase 1 - estabilidade)
+
+- Eventos de diagnóstico do headset (usados só no painel de calibração)
+  podiam disparar repetidamente enquanto um botão ficava pressionado,
+  em vez de uma única vez por toque. Corrigido para disparar só na
+  transição de solto para pressionado, igual aos botões já mapeados
+  (atender/mudo/espera) - reduz a frequência de eventos internos
+  processados pelo aplicativo, parte de uma investigação mais ampla de
+  estabilidade em andamento.
+
+---
+
+**Wconect VoIP 1.0.27**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.27:** [Wconect-VoIP_1.0.27.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.27/Wconect-VoIP_1.0.27.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.26
 
 ## ☎️ Queda de chamadas em ligações feitas pelo app - causa raiz corrigida
