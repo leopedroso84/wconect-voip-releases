@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.23",
+    "version":  "1.0.24",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "2588d41976e1bfd104cb36e426da9e0c3602f74b3173baefffb16fa506a24c02",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.23/Wconect-VoIP_1.0.23.exe",
-    "published_at":  "2026-07-31T12:28:37Z",
-    "notes":  "- Log de diagnóstico de chamadas (PJSIP) restaurado - não fica mais mudo silenciosamente\n- Keep-Alive de rede (Configurações → Rede) agora tem efeito real na conexão"
+    "installer_sha256":  "16ed7290d3e332fcad1841c6c724a74c37839636d841cc27553d2acf3db829f2",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.24/Wconect-VoIP_1.0.24.exe",
+    "published_at":  "2026-07-31T14:23:09Z",
+    "notes":  "- Análise real (WinDbg) confirma e endurece contra o crash da bandeja durante destruição de recursos\n- Corrigido vazamento de ícone ao atualizar a bandeja mais de uma vez"
 }

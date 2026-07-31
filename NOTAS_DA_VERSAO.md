@@ -1,3 +1,24 @@
+# Notas da Versão — Wconect VoIP 1.0.24
+
+## 🛠️ Bandeja do sistema - endurecimento adicional
+
+- Analisamos um crash real com um depurador de verdade (símbolos
+  completos), confirmando que a causa está ligada à destruição de
+  recursos da bandeja durante o processamento de mensagens do Windows.
+  Adicionada uma proteção adicional contra o uso do componente da
+  bandeja em pleno processo de finalização.
+- Corrigido um vazamento de recurso de ícone que ocorria ao atualizar o
+  ícone da bandeja mais de uma vez.
+
+---
+
+**Wconect VoIP 1.0.24**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.24:** [Wconect-VoIP_1.0.24.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.24/Wconect-VoIP_1.0.24.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.23
 
 ## 🔍 Diagnóstico de quedas de chamada - log SIP restaurado
