@@ -1,3 +1,27 @@
+# Notas da Versão — Wconect VoIP 1.0.22
+
+## 🛠️ Estabilidade da bandeja - blindagem definitiva
+
+- Capturamos e analisamos (via dump completo de memória) um novo
+  travamento real acontecendo dentro do próprio código da bandeja do
+  sistema, mesmo depois das correções anteriores.
+- Causa raiz: as proteções contra erro adicionadas antes só cobriam
+  falhas de programação comuns, não um acesso inválido de memória - esse
+  tipo específico de falha conseguia escapar da proteção e derrubar o
+  aplicativo inteiro.
+- Substituída por uma proteção de nível mais baixo, do próprio Windows,
+  que intercepta esse tipo de falha também - agora nenhum erro na
+  bandeja consegue mais encerrar o aplicativo, seja qual for a causa.
+
+---
+
+**Wconect VoIP 1.0.22**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.22:** [Wconect-VoIP_1.0.22.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.22/Wconect-VoIP_1.0.22.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.21
 
 ## 🎧 Tela de Áudio reorganizada

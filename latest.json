@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.21",
+    "version":  "1.0.22",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "232f34f418670439bca7ee1e6a78af0394cbd4e9d120ebeb220b9d3040c13e89",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.21/Wconect-VoIP_1.0.21.exe",
-    "published_at":  "2026-07-31T00:09:42Z",
-    "notes":  "- Tela de audio reorganizada por funcao\n- Novo Volume do microfone, independente do Boost"
+    "installer_sha256":  "763b3bc5f1265260c3019f484bb8011fe2b1cc7d27971d308a4047bab894168e",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.22/Wconect-VoIP_1.0.22.exe",
+    "published_at":  "2026-07-31T11:34:39Z",
+    "notes":  "- Blindagem definitiva contra travamento da bandeja (proteção estrutural do próprio Windows, não só de exceções C++)"
 }
