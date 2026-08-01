@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.29",
+    "version":  "1.0.30",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "508af8eaf0b6eec1011efb6bcbefe3e14f0208b359b9c50d2beb6937c4621759",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.29/Wconect-VoIP_1.0.29.exe",
-    "published_at":  "2026-08-01T01:50:02Z",
-    "notes":  "- Painel de qualidade da ligacao agora mostra mensagem de espera durante o toque, em vez de texto generico ate a chamada ser atendida"
+    "installer_sha256":  "3fd2e441dc64ee5992ed6136857f900edefd8680c3deb9eee580991c6393f36f",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.30/Wconect-VoIP_1.0.30.exe",
+    "published_at":  "2026-08-01T01:57:24Z",
+    "notes":  "- Monitor de qualidade da ligacao agora liga no sinal nativo de midia ativa, nao mais so no evento de chamada confirmada"
 }

@@ -1,3 +1,23 @@
+# Notas da Versão — Wconect VoIP 1.0.30
+
+## 🛠️ Ajuste fino no monitor de qualidade da ligação
+
+- A coleta de estatísticas de qualidade agora começa no instante exato
+  em que a mídia real da chamada fica ativa (sinal nativo do PJSIP), em
+  vez de esperar o app marcar a ligação como atendida. Na prática isso
+  não muda o que você vê na maioria das chamadas, mas cobre
+  corretamente os casos em que o tronco já envia áudio real antes do
+  destino atender.
+
+---
+
+**Wconect VoIP 1.0.30**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.30:** [Wconect-VoIP_1.0.30.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.30/Wconect-VoIP_1.0.30.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.29
 
 ## 🛠️ Melhoria no painel de qualidade da ligação
