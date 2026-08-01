@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.0",
+    "version":  "1.1.1",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "e75ceba3d64c1385fd3808f45285a5aa718771a5a816791289d507527e891a52",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.0/Wconect-VoIP_1.1.0.exe",
-    "published_at":  "2026-08-01T15:34:07Z",
-    "notes":  "- Melhorias de desempenho, estabilidade e seguranca, alem de otimizacoes internas\n- Destaque: o toque de chamada recebida agora pode tocar num dispositivo diferente do usado na chamada, com controle de Boost proprio"
+    "installer_sha256":  "959b9e40f8a18611eceeacb0b0a1e134d10d3ce4179f5f07b63e222e19ac6cc5",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.1/Wconect-VoIP_1.1.1.exe",
+    "published_at":  "2026-08-01T16:19:55Z",
+    "notes":  "- Melhorias de desempenho, estabilidade e seguranca, alem de otimizacoes internas"
 }
