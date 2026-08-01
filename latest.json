@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.28",
+    "version":  "1.0.29",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "d08b9f7758daf588bd6eaab66b2ee443142c51870ee6f04c9b81ab049e962f78",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.28/Wconect-VoIP_1.0.28.exe",
-    "published_at":  "2026-08-01T01:19:32Z",
-    "notes":  "- Blindagem contra icone da bandeja sem resposta a cliques"
+    "installer_sha256":  "508af8eaf0b6eec1011efb6bcbefe3e14f0208b359b9c50d2beb6937c4621759",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.29/Wconect-VoIP_1.0.29.exe",
+    "published_at":  "2026-08-01T01:50:02Z",
+    "notes":  "- Painel de qualidade da ligacao agora mostra mensagem de espera durante o toque, em vez de texto generico ate a chamada ser atendida"
 }

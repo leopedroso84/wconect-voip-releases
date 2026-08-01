@@ -1,3 +1,21 @@
+# Notas da Versão — Wconect VoIP 1.0.29
+
+## 🛠️ Melhoria no painel de qualidade da ligação
+
+- O painel "Qualidade da ligação" não fica mais parado no mesmo texto
+  genérico enquanto a chamada ainda está tocando. Agora ele mostra uma
+  mensagem clara de que está aguardando o atendimento, e passa a medir
+  a qualidade real assim que a ligação é atendida.
+
+---
+
+**Wconect VoIP 1.0.29**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.29:** [Wconect-VoIP_1.0.29.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.29/Wconect-VoIP_1.0.29.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.28
 
 ## 🛠️ Correção no ícone da bandeja
