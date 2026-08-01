@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.30",
+    "version":  "1.0.31",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "3fd2e441dc64ee5992ed6136857f900edefd8680c3deb9eee580991c6393f36f",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.30/Wconect-VoIP_1.0.30.exe",
-    "published_at":  "2026-08-01T01:57:24Z",
-    "notes":  "- Monitor de qualidade da ligacao agora liga no sinal nativo de midia ativa, nao mais so no evento de chamada confirmada"
+    "installer_sha256":  "ffce656ef6dc711d51ec5670e68fa872f2dc0c84a7e54429dd6400ac0875bba9",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.31/Wconect-VoIP_1.0.31.exe",
+    "published_at":  "2026-08-01T02:10:00Z",
+    "notes":  "- Melhorias de desempenho, estabilidade e seguranca, alem de otimizacoes internas e correcoes de pequenos problemas"
 }

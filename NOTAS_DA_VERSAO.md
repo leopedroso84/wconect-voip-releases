@@ -1,3 +1,19 @@
+# Notas da Versão — Wconect VoIP 1.0.31
+
+Esta versão do **Wconect VoIP** traz melhorias de desempenho,
+estabilidade e segurança, além de otimizações internas e correções de
+pequenos problemas para proporcionar uma experiência de comunicação
+mais confiável e eficiente.
+
+---
+
+**Wconect VoIP 1.0.31**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.31:** [Wconect-VoIP_1.0.31.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.31/Wconect-VoIP_1.0.31.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.30
 
 ## 🛠️ Ajuste fino no monitor de qualidade da ligação
