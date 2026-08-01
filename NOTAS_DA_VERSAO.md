@@ -31,6 +31,39 @@ um resumo do que mudou:
 
 ---
 
+# Notas da Versão — Wconect VoIP 1.1.0
+
+Esta versão do **Wconect VoIP** traz melhorias de desempenho,
+estabilidade e segurança, além de otimizações internas e correções de
+pequenos problemas para proporcionar uma experiência de comunicação
+mais confiável e eficiente.
+
+## Destaque desta versão: áudio totalmente reorganizado
+
+Como esta é uma atualização mais profunda no sistema de áudio, aqui vai
+um resumo do que mudou:
+
+- **O toque de chamada recebida agora pode sair em um dispositivo
+  diferente do usado na ligação** - por exemplo, o toque na caixa de
+  som do computador e a conversa no headset, ao mesmo tempo. Antes,
+  toque e chamada sempre saíam juntos no mesmo dispositivo.
+- O toque ganhou um controle de **Boost**, além do volume que já
+  existia.
+- O modo "Automático" de dispositivo de chamada e microfone agora
+  prioriza o headset conectado com mais precisão, seguindo a mesma
+  classificação que o próprio Windows já usa.
+- A tela de Configurações → Áudio foi reorganizada por categoria: Toque,
+  Chamada, Microfone e Sons do sistema (toque de "chamando" + teclado).
+
+---
+
+**Wconect VoIP 1.1.0**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.1.0:** [Wconect-VoIP_1.1.0.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.0/Wconect-VoIP_1.1.0.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.31
 
 Esta versão do **Wconect VoIP** traz melhorias de desempenho,
