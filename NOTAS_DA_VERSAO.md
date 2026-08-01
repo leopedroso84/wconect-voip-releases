@@ -1,3 +1,21 @@
+# Notas da Versão — Wconect VoIP 1.0.28
+
+## 🛠️ Correção no ícone da bandeja
+
+- Corrigido um caso em que o ícone da bandeja do sistema parava de
+  responder a cliques (a barra de tarefas e o restante do app
+  continuavam normais). Agora o ícone se reconecta automaticamente
+  se a área de notificação do Windows for recriada.
+
+---
+
+**Wconect VoIP 1.0.28**
+*Conectando pessoas com qualidade, desempenho e simplicidade.*
+
+**⬇️ Baixar a versão 1.0.28:** [Wconect-VoIP_1.0.28.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.28/Wconect-VoIP_1.0.28.exe)
+
+---
+
 # Notas da Versão — Wconect VoIP 1.0.27
 
 ## 🎧 Redução de pressão nos eventos do headset (Fase 1 - estabilidade)

@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.27",
+    "version":  "1.0.28",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "a0cc89dd38278e7d89747031787f42aa33a4c10a168c3959296c2a4aaa47b477",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.27/Wconect-VoIP_1.0.27.exe",
-    "published_at":  "2026-07-31T20:27:08Z",
-    "notes":  "- Fase 1 do plano de estabilidade: reduzida a pressão de callbacks nativos do headset (diagnóstico não repete mais durante o toque)\n- Investigação de estabilidade continua com plano estruturado de 3 fases"
+    "installer_sha256":  "d08b9f7758daf588bd6eaab66b2ee443142c51870ee6f04c9b81ab049e962f78",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.28/Wconect-VoIP_1.0.28.exe",
+    "published_at":  "2026-08-01T01:19:32Z",
+    "notes":  "- Blindagem contra icone da bandeja sem resposta a cliques"
 }
