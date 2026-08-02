@@ -1,3 +1,9 @@
+Mais uma melhoria de estabilidade: o **Wconect VoIP** foi ajustado para reduzir ainda mais a chance de travamentos e do ícone da bandeja do sistema parar de responder após ligações.
+
+**⬇️ Baixar a versão 1.1.9:** [Wconect-VoIP_1.1.9.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.9/Wconect-VoIP_1.1.9.exe)
+
+---
+
 Esta versão traz uma melhoria de estabilidade: o **Wconect VoIP** foi atualizado para reduzir a chance de travamentos e do ícone da bandeja do sistema parar de responder após ligações.
 
 **⬇️ Baixar a versão 1.1.8:** [Wconect-VoIP_1.1.8.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.8/Wconect-VoIP_1.1.8.exe)

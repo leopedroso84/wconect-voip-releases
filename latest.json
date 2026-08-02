@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.8",
+    "version":  "1.1.9",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "8bc4b4420203dc3bd82a3242c859e8e0065cb7a3b598a6d5b9a2d66f355f6bd2",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.8/Wconect-VoIP_1.1.8.exe",
-    "published_at":  "2026-08-02T18:56:10Z",
-    "notes":  "- Mitigacao para o icone da bandeja travar ou o app fechar sozinho apos ligacoes"
+    "installer_sha256":  "09c8db8033ae489f005c604509866d78c3b942b0d5ede9ce714cc2975906ed78",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.9/Wconect-VoIP_1.1.9.exe",
+    "published_at":  "2026-08-02T19:24:33Z",
+    "notes":  "- Mais uma mitigacao para o icone da bandeja travar apos ligacoes"
 }
