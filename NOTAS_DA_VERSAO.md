@@ -1,3 +1,9 @@
+Esta versão traz uma melhoria de estabilidade: o **Wconect VoIP** foi atualizado para reduzir a chance de travamentos e do ícone da bandeja do sistema parar de responder após ligações.
+
+**⬇️ Baixar a versão 1.1.8:** [Wconect-VoIP_1.1.8.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.8/Wconect-VoIP_1.1.8.exe)
+
+---
+
 Agora, se o headset/fone for desconectado durante uma ligação (bateria fraca, cabo solto, Bluetooth), o **Wconect VoIP** troca automaticamente o áudio para o dispositivo padrão do computador, sem derrubar a chamada. Quando o fone reconectar, o áudio volta sozinho para ele.
 
 **⬇️ Baixar a versão 1.1.7:** [Wconect-VoIP_1.1.7.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.7/Wconect-VoIP_1.1.7.exe)

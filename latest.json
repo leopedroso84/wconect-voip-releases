@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.7",
+    "version":  "1.1.8",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "0000f3dc85b25bfa38b2c7b620089ca76aa8277bb94742615f3cf115985fd554",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.7/Wconect-VoIP_1.1.7.exe",
-    "published_at":  "2026-08-02T02:36:35Z",
-    "notes":  "- Agora, se o headset/fone for desconectado durante uma ligação (bateria fraca, cabo solto, Bluetooth), o Wconect VoIP troca automaticamente o áudio para o dispositivo padrão do computador, sem derrubar a chamada. Quando o fone reconectar, o áudio volta sozinho para ele."
+    "installer_sha256":  "8bc4b4420203dc3bd82a3242c859e8e0065cb7a3b598a6d5b9a2d66f355f6bd2",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.8/Wconect-VoIP_1.1.8.exe",
+    "published_at":  "2026-08-02T18:56:10Z",
+    "notes":  "- Mitigacao para o icone da bandeja travar ou o app fechar sozinho apos ligacoes"
 }
