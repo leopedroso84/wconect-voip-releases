@@ -1,3 +1,9 @@
+Agora, se o headset/fone for desconectado durante uma ligação (bateria fraca, cabo solto, Bluetooth), o **Wconect VoIP** troca automaticamente o áudio para o dispositivo padrão do computador, sem derrubar a chamada. Quando o fone reconectar, o áudio volta sozinho para ele.
+
+**⬇️ Baixar a versão 1.1.7:** [Wconect-VoIP_1.1.7.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.7/Wconect-VoIP_1.1.7.exe)
+
+---
+
 Atualizamos nosso aplicativo regularmente para corrigir erros, otimizar o desempenho e aprimorar a qualidade, proporcionando uma experiência cada vez melhor, com mais estabilidade, confiabilidade e melhorias contínuas a cada nova versão.
 
 **⬇️ Baixar a versão 1.1.6:** [Wconect-VoIP_1.1.6.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.6/Wconect-VoIP_1.1.6.exe)
