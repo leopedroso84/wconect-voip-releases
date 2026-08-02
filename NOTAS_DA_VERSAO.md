@@ -1,3 +1,9 @@
+Agora dá para usar o teclado na hora de ligar e atender: pressione **Enter** para confirmar uma ligação ou atender uma chamada recebida, e **Esc** para cancelar/encerrar ou recusar.
+
+**⬇️ Baixar a versão 1.1.10:** [Wconect-VoIP_1.1.10.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.10/Wconect-VoIP_1.1.10.exe)
+
+---
+
 Mais uma melhoria de estabilidade: o **Wconect VoIP** foi ajustado para reduzir ainda mais a chance de travamentos e do ícone da bandeja do sistema parar de responder após ligações.
 
 **⬇️ Baixar a versão 1.1.9:** [Wconect-VoIP_1.1.9.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.9/Wconect-VoIP_1.1.9.exe)

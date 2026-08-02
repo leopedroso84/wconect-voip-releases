@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.9",
+    "version":  "1.1.10",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "09c8db8033ae489f005c604509866d78c3b942b0d5ede9ce714cc2975906ed78",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.9/Wconect-VoIP_1.1.9.exe",
-    "published_at":  "2026-08-02T19:24:33Z",
-    "notes":  "- Mais uma mitigacao para o icone da bandeja travar apos ligacoes"
+    "installer_sha256":  "d778a5a0f422a0d70f49eb83d30a36facb085e9959e046008640d65bd41789dd",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.10/Wconect-VoIP_1.1.10.exe",
+    "published_at":  "2026-08-02T20:34:16Z",
+    "notes":  "- Enter/Esc para ligar, atender, recusar e encerrar chamadas"
 }
