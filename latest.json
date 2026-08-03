@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.10",
+    "version":  "1.0.28",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "d778a5a0f422a0d70f49eb83d30a36facb085e9959e046008640d65bd41789dd",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.10/Wconect-VoIP_1.1.10.exe",
-    "published_at":  "2026-08-02T20:34:16Z",
-    "notes":  "- Enter/Esc para ligar, atender, recusar e encerrar chamadas"
+    "installer_sha256":  "bb25f695af62af75be7795849a408a110744034646867e8f61b4bd25b3c4b116",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.28/Wconect-VoIP_1.0.28.exe",
+    "published_at":  "2026-08-03T17:10:21Z",
+    "notes":  "- Painel de qualidade da ligacao (latencia, jitter, perda) agora comeca a ser calculado ja na discagem\n- Mensagem de espera simplificada\n- Atualizacao do Flutter SDK para 3.44.8"
 }
