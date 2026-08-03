@@ -1,23 +1,3 @@
-# Notas da Versão — Wconect VoIP 1.0.28
-
-## 📶 Qualidade da ligação exibida mais rápido, em qualquer tipo de chamada
-
-- O painel de qualidade da ligação (latência, jitter, perda, codec) agora
-  começa a ser calculado desde o momento em que você disca, e não só
-  depois que a chamada é atendida - mesmo tratamento que já tínhamos dado
-  antes ao indicador de nível de áudio. Isso reduz o tempo que a tela fica
-  presa na mensagem de espera antes de mostrar os dados reais.
-- Mensagem simplificada enquanto os dados ainda não chegaram.
-
----
-
-**Wconect VoIP 1.0.28**
-*Conectando pessoas com qualidade, desempenho e simplicidade.*
-
-**⬇️ Baixar a versão 1.0.28:** [Wconect-VoIP_1.0.28.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.0.28/Wconect-VoIP_1.0.28.exe)
-
----
-
 Agora dá para usar o teclado na hora de ligar e atender: pressione **Enter** para confirmar uma ligação ou atender uma chamada recebida, e **Esc** para cancelar/encerrar ou recusar.
 
 **⬇️ Baixar a versão 1.1.10:** [Wconect-VoIP_1.1.10.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.10/Wconect-VoIP_1.1.10.exe)
