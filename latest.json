@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.10",
+    "version":  "1.1.11",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "d778a5a0f422a0d70f49eb83d30a36facb085e9959e046008640d65bd41789dd",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.10/Wconect-VoIP_1.1.10.exe",
-    "published_at":  "2026-08-02T20:34:16Z",
-    "notes":  "- Enter/Esc para ligar, atender, recusar e encerrar chamadas"
+    "installer_sha256":  "54f6d65df367da21b32dc35dc54daa4450395868860a89b8f2c812c6ee454c15",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.11/Wconect-VoIP_1.1.11.exe",
+    "published_at":  "2026-08-06T11:10:56Z",
+    "notes":  "- Indicador de audio da tela de ligacao agora se mexe ja durante o toque, nao so depois de atendida"
 }

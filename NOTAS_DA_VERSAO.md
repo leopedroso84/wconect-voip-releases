@@ -1,3 +1,9 @@
+O indicador de áudio da tela de ligação agora se mexe desde o momento em que você disca (enquanto o telefone ainda está tocando), não só depois que a chamada é atendida.
+
+**⬇️ Baixar a versão 1.1.11:** [Wconect-VoIP_1.1.11.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.11/Wconect-VoIP_1.1.11.exe)
+
+---
+
 Agora dá para usar o teclado na hora de ligar e atender: pressione **Enter** para confirmar uma ligação ou atender uma chamada recebida, e **Esc** para cancelar/encerrar ou recusar.
 
 **⬇️ Baixar a versão 1.1.10:** [Wconect-VoIP_1.1.10.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.10/Wconect-VoIP_1.1.10.exe)
