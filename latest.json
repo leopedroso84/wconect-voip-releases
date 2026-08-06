@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.12",
+    "version":  "1.1.13",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "ea2d6b822d3755b386183f3414e64498bf49024eba90be4ac37268f8018cf7dd",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.12/Wconect-VoIP_1.1.12.exe",
-    "published_at":  "2026-08-06T11:27:52Z",
-    "notes":  "- Corrigido de vez: indicador de audio da tela de ligacao modula desde o toque em chamadas internas"
+    "installer_sha256":  "fe12d176f71f19c86108ebd2c047c78f9cff61758bf7f1b34e0c81a33f56aca1",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.13/Wconect-VoIP_1.1.13.exe",
+    "published_at":  "2026-08-06T19:24:38Z",
+    "notes":  "- Corrigido: botao Em espera nao travava mais ao tentar retomar a ligacao"
 }

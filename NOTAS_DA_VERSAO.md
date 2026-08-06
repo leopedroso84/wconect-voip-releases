@@ -1,3 +1,9 @@
+Corrigimos o botão "Em espera": em alguns casos, retomar uma ligação logo depois de colocar em espera fazia o botão ficar travado aceso, sem voltar. Agora ele funciona de forma confiável, e se algo impedir a retomada por um instante, você vê um aviso na tela em vez de ficar sem saber o que aconteceu.
+
+**⬇️ Baixar a versão 1.1.13:** [Wconect-VoIP_1.1.13.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.13/Wconect-VoIP_1.1.13.exe)
+
+---
+
 Corrigimos de vez o indicador de áudio da tela de ligação: agora ele se mexe desde o momento em que você disca para um ramal interno, não só depois que a chamada é atendida.
 
 **⬇️ Baixar a versão 1.1.12:** [Wconect-VoIP_1.1.12.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.12/Wconect-VoIP_1.1.12.exe)
