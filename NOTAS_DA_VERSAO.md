@@ -1,3 +1,9 @@
+Corrigimos de vez o indicador de áudio da tela de ligação: agora ele se mexe desde o momento em que você disca para um ramal interno, não só depois que a chamada é atendida.
+
+**⬇️ Baixar a versão 1.1.12:** [Wconect-VoIP_1.1.12.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.12/Wconect-VoIP_1.1.12.exe)
+
+---
+
 O indicador de áudio da tela de ligação agora se mexe desde o momento em que você disca (enquanto o telefone ainda está tocando), não só depois que a chamada é atendida.
 
 **⬇️ Baixar a versão 1.1.11:** [Wconect-VoIP_1.1.11.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.11/Wconect-VoIP_1.1.11.exe)
