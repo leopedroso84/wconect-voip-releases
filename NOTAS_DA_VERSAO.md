@@ -1,3 +1,9 @@
+Atualização técnica: corrigimos o registro de diagnóstico interno do app, que não estava funcionando nas versões instaladas normalmente (só em builds de desenvolvimento). Isso não muda nada visível no dia a dia, mas nos ajuda a investigar problemas de chamada com muito mais precisão daqui pra frente.
+
+**⬇️ Baixar a versão 1.1.14:** [Wconect-VoIP_1.1.14.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.14/Wconect-VoIP_1.1.14.exe)
+
+---
+
 Corrigimos o botão "Em espera": em alguns casos, retomar uma ligação logo depois de colocar em espera fazia o botão ficar travado aceso, sem voltar. Agora ele funciona de forma confiável, e se algo impedir a retomada por um instante, você vê um aviso na tela em vez de ficar sem saber o que aconteceu.
 
 **⬇️ Baixar a versão 1.1.13:** [Wconect-VoIP_1.1.13.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.13/Wconect-VoIP_1.1.13.exe)

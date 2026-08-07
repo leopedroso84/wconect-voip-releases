@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.13",
+    "version":  "1.1.14",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "fe12d176f71f19c86108ebd2c047c78f9cff61758bf7f1b34e0c81a33f56aca1",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.13/Wconect-VoIP_1.1.13.exe",
-    "published_at":  "2026-08-06T19:24:38Z",
-    "notes":  "- Corrigido: botao Em espera nao travava mais ao tentar retomar a ligacao"
+    "installer_sha256":  "22148733285ae3682cecd4244e1f5fbbe898e62b7edd3f9f601751339152a1b0",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.14/Wconect-VoIP_1.1.14.exe",
+    "published_at":  "2026-08-07T11:42:28Z",
+    "notes":  "- Corrigido registro de diagnostico interno, que nao funcionava nas versoes instaladas normalmente"
 }
