@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.15",
+    "version":  "1.1.16",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "fbc02435ca48dca6ac9ce49a9f2d41731f957e4f1b9ad4ae90cf70ca66c44de1",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.15/Wconect-VoIP_1.1.15.exe",
-    "published_at":  "2026-08-10T15:11:40Z",
-    "notes":  "- Corrigida a janela \u0027sempre em primeiro plano\u0027 - agora aparece de verdade ao ligar/receber chamada minimizada"
+    "installer_sha256":  "07fce0e4cce6a8243c6d503dd3bb2b3bf8fe929435e202c4764c40e70d1c539e",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.16/Wconect-VoIP_1.1.16.exe",
+    "published_at":  "2026-08-10T15:22:40Z",
+    "notes":  "- Atualizacoes agora sao silenciosas - so uma barra de progresso, sem assistente, e o app reabre sozinho"
 }

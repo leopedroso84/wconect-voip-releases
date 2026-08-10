@@ -1,3 +1,9 @@
+Atualizações agora são bem mais simples: em vez do assistente de instalação completo (avançar, avançar, concluir), você vê só uma barra de progresso e o app reabre sozinho quando termina. Ainda pede a confirmação de administrador do Windows uma vez, como sempre.
+
+**⬇️ Baixar a versão 1.1.16:** [Wconect-VoIP_1.1.16.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.16/Wconect-VoIP_1.1.16.exe)
+
+---
+
 Corrigimos a janela "sempre em primeiro plano" durante ligações: agora, ao fazer ou receber uma chamada com o app minimizado (ou na bandeja), a janela aparece e fica visível automaticamente, em vez de continuar escondida.
 
 **⬇️ Baixar a versão 1.1.15:** [Wconect-VoIP_1.1.15.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.15/Wconect-VoIP_1.1.15.exe)
