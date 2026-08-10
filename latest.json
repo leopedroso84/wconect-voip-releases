@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.16",
+    "version":  "1.1.17",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "07fce0e4cce6a8243c6d503dd3bb2b3bf8fe929435e202c4764c40e70d1c539e",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.16/Wconect-VoIP_1.1.16.exe",
-    "published_at":  "2026-08-10T15:22:40Z",
-    "notes":  "- Atualizacoes agora sao silenciosas - so uma barra de progresso, sem assistente, e o app reabre sozinho"
+    "installer_sha256":  "dd63d7fdaa4b52d8007176a58a54c23a65994a8fc9e45ffad425e908726a5dc4",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.17/Wconect-VoIP_1.1.17.exe",
+    "published_at":  "2026-08-10T15:28:39Z",
+    "notes":  "- Pequenas correcoes e melhorias de estabilidade"
 }

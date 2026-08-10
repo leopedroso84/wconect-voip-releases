@@ -1,3 +1,9 @@
+Pequenas correções e melhorias de estabilidade.
+
+**⬇️ Baixar a versão 1.1.17:** [Wconect-VoIP_1.1.17.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.17/Wconect-VoIP_1.1.17.exe)
+
+---
+
 Atualizações agora são bem mais simples: em vez do assistente de instalação completo (avançar, avançar, concluir), você vê só uma barra de progresso e o app reabre sozinho quando termina. Ainda pede a confirmação de administrador do Windows uma vez, como sempre.
 
 **⬇️ Baixar a versão 1.1.16:** [Wconect-VoIP_1.1.16.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.16/Wconect-VoIP_1.1.16.exe)
