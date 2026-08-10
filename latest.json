@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.14",
+    "version":  "1.1.15",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "22148733285ae3682cecd4244e1f5fbbe898e62b7edd3f9f601751339152a1b0",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.14/Wconect-VoIP_1.1.14.exe",
-    "published_at":  "2026-08-07T11:42:28Z",
-    "notes":  "- Corrigido registro de diagnostico interno, que nao funcionava nas versoes instaladas normalmente"
+    "installer_sha256":  "fbc02435ca48dca6ac9ce49a9f2d41731f957e4f1b9ad4ae90cf70ca66c44de1",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.15/Wconect-VoIP_1.1.15.exe",
+    "published_at":  "2026-08-10T15:11:40Z",
+    "notes":  "- Corrigida a janela \u0027sempre em primeiro plano\u0027 - agora aparece de verdade ao ligar/receber chamada minimizada"
 }

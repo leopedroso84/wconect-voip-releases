@@ -1,3 +1,9 @@
+Corrigimos a janela "sempre em primeiro plano" durante ligações: agora, ao fazer ou receber uma chamada com o app minimizado (ou na bandeja), a janela aparece e fica visível automaticamente, em vez de continuar escondida.
+
+**⬇️ Baixar a versão 1.1.15:** [Wconect-VoIP_1.1.15.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.15/Wconect-VoIP_1.1.15.exe)
+
+---
+
 Atualização técnica: corrigimos o registro de diagnóstico interno do app, que não estava funcionando nas versões instaladas normalmente (só em builds de desenvolvimento). Isso não muda nada visível no dia a dia, mas nos ajuda a investigar problemas de chamada com muito mais precisão daqui pra frente.
 
 **⬇️ Baixar a versão 1.1.14:** [Wconect-VoIP_1.1.14.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.14/Wconect-VoIP_1.1.14.exe)
