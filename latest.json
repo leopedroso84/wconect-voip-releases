@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.18",
+    "version":  "1.1.19",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "44bf58d51871c5dba2f412f921805ab872244bd3824c72c35f6884fe48df8233",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.18/Wconect-VoIP_1.1.18.exe",
-    "published_at":  "2026-08-11T13:57:59Z",
-    "notes":  "- Corrigido o toque de chamada que, às vezes, não tocava ao abrir o app\n- No modo automático, o toque agora segue o dispositivo de áudio padrão do Windows"
+    "installer_sha256":  "4094e85e60d4a2c8425b1bc2a88e27701a2c94bd62dfd83a6f31a0eb36d0d3b4",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.19/Wconect-VoIP_1.1.19.exe",
+    "published_at":  "2026-08-11T19:11:13Z",
+    "notes":  "- Tela de Recentes: nova opção \"Copiar número\"\n- Copia o número para a área de transferência, para colar e enviar a alguém"
 }
