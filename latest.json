@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.17",
+    "version":  "1.1.18",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "dd63d7fdaa4b52d8007176a58a54c23a65994a8fc9e45ffad425e908726a5dc4",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.17/Wconect-VoIP_1.1.17.exe",
-    "published_at":  "2026-08-10T15:28:39Z",
-    "notes":  "- Pequenas correcoes e melhorias de estabilidade"
+    "installer_sha256":  "44bf58d51871c5dba2f412f921805ab872244bd3824c72c35f6884fe48df8233",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.18/Wconect-VoIP_1.1.18.exe",
+    "published_at":  "2026-08-11T13:57:59Z",
+    "notes":  "- Corrigido o toque de chamada que, às vezes, não tocava ao abrir o app\n- No modo automático, o toque agora segue o dispositivo de áudio padrão do Windows"
 }

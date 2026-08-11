@@ -1,3 +1,9 @@
+Corrigido o som de chamada (toque) que, às vezes, não tocava — em geral quando o dispositivo de áudio padrão do Windows tinha mudado depois que o app foi aberto. No modo automático, o toque agora acompanha sozinho o dispositivo de reprodução padrão do Windows, sem precisar entrar em Configurações → Áudio e selecionar o aparelho na mão.
+
+**⬇️ Baixar a versão 1.1.18:** [Wconect-VoIP_1.1.18.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.18/Wconect-VoIP_1.1.18.exe)
+
+---
+
 Pequenas correções e melhorias de estabilidade.
 
 **⬇️ Baixar a versão 1.1.17:** [Wconect-VoIP_1.1.17.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.17/Wconect-VoIP_1.1.17.exe)
