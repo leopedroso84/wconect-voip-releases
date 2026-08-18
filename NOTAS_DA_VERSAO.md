@@ -1,3 +1,9 @@
+Duas melhorias na discagem: clicar no campo "Digite o número ou nome" agora mostra os últimos 10 números com que você teve contato (clique de novo pra fechar), e tocar num deles já disca direto. Além disso, o app não bloqueia mais números fora do padrão comum (como 0800/0300) - ele tenta discar como você digitou e deixa a operadora/PABX responder, igual num telefone normal.
+
+**⬇️ Baixar a versão 1.1.20:** [Wconect-VoIP_1.1.20.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.20/Wconect-VoIP_1.1.20.exe)
+
+---
+
 Na tela de Recentes, ao tocar em uma ligação agora aparece a opção "Copiar número" — copia o número para a área de transferência, prático para colar e enviar para outra pessoa (por WhatsApp, e-mail etc.) sem precisar digitar.
 
 **⬇️ Baixar a versão 1.1.19:** [Wconect-VoIP_1.1.19.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.19/Wconect-VoIP_1.1.19.exe)
