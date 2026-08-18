@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.20",
+    "version":  "1.1.21",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "6e723719e2252785d72c5da801fb7a5b612a313816dc11210d1e12e429e2ab84",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.20/Wconect-VoIP_1.1.20.exe",
-    "published_at":  "2026-08-18T11:27:49Z",
-    "notes":  "- Lista dos ultimos 10 numeros ao clicar no campo de discagem - toque num numero ja disca direto\n- Discagem nao bloqueia mais numeros fora do padrao comum (0800/0300 etc) - deixa a operadora/PABX responder"
+    "installer_sha256":  "0894eda89999d5b511a50f9ad109216d1c2ac1717a19ec868971eb0c6bce11c5",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.21/Wconect-VoIP_1.1.21.exe",
+    "published_at":  "2026-08-18T11:38:11Z",
+    "notes":  "- Corrigida a lista de ultimos numeros: agora rola em vez de estourar a tela, e nao mostra mais nomes sujos"
 }

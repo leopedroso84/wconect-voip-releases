@@ -1,3 +1,9 @@
+Ajuste na lista de últimos números que adicionamos na versão anterior: agora ela cabe corretamente na tela (rola internamente em vez de estourar) e não mostra mais nomes "sujos" quando o PABX embute o próprio número no lugar do nome.
+
+**⬇️ Baixar a versão 1.1.21:** [Wconect-VoIP_1.1.21.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.21/Wconect-VoIP_1.1.21.exe)
+
+---
+
 Duas melhorias na discagem: clicar no campo "Digite o número ou nome" agora mostra os últimos 10 números com que você teve contato (clique de novo pra fechar), e tocar num deles já disca direto. Além disso, o app não bloqueia mais números fora do padrão comum (como 0800/0300) - ele tenta discar como você digitou e deixa a operadora/PABX responder, igual num telefone normal.
 
 **⬇️ Baixar a versão 1.1.20:** [Wconect-VoIP_1.1.20.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.20/Wconect-VoIP_1.1.20.exe)
