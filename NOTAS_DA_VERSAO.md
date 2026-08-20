@@ -1,3 +1,9 @@
+Melhoria de diagnóstico interno (log técnico voltou a funcionar de forma mais confiável) e uma mensagem mais clara: se "Em espera" ou o mudo travarem numa ligação, depois de algumas tentativas o app já sugere desligar e ligar de novo, em vez de insistir sem sucesso.
+
+**⬇️ Baixar a versão 1.1.22:** [Wconect-VoIP_1.1.22.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.22/Wconect-VoIP_1.1.22.exe)
+
+---
+
 Ajuste na lista de últimos números que adicionamos na versão anterior: agora ela cabe corretamente na tela (rola internamente em vez de estourar) e não mostra mais nomes "sujos" quando o PABX embute o próprio número no lugar do nome.
 
 **⬇️ Baixar a versão 1.1.21:** [Wconect-VoIP_1.1.21.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.21/Wconect-VoIP_1.1.21.exe)

@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.21",
+    "version":  "1.1.22",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "0894eda89999d5b511a50f9ad109216d1c2ac1717a19ec868971eb0c6bce11c5",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.21/Wconect-VoIP_1.1.21.exe",
-    "published_at":  "2026-08-18T11:38:11Z",
-    "notes":  "- Corrigida a lista de ultimos numeros: agora rola em vez de estourar a tela, e nao mostra mais nomes sujos"
+    "installer_sha256":  "3e380bddd6866a730a2b03e02941cebbdb79c5950a6d70add809289a512df97a",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.22/Wconect-VoIP_1.1.22.exe",
+    "published_at":  "2026-08-20T20:01:00Z",
+    "notes":  "- Log de diagnostico interno mais confiavel\n- Aviso melhor se Em espera/mudo travarem numa ligacao"
 }
