@@ -1,3 +1,9 @@
+Melhoria de diagnóstico interno: cobrimos mais um cenário em que o registro técnico de chamadas podia ficar sem informação nenhuma, pra conseguirmos investigar problemas de "Em espera" com mais precisão se acontecerem de novo.
+
+**⬇️ Baixar a versão 1.1.24:** [Wconect-VoIP_1.1.24.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.24/Wconect-VoIP_1.1.24.exe)
+
+---
+
 Corrigimos de vez o problema de "Em espera" travar a ligação e não retomar mais. Testado com vários ciclos seguidos de colocar em espera e retomar numa ligação real, sem falhas.
 
 **⬇️ Baixar a versão 1.1.23:** [Wconect-VoIP_1.1.23.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.23/Wconect-VoIP_1.1.23.exe)
