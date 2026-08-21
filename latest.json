@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.22",
+    "version":  "1.1.23",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "3e380bddd6866a730a2b03e02941cebbdb79c5950a6d70add809289a512df97a",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.22/Wconect-VoIP_1.1.22.exe",
-    "published_at":  "2026-08-20T20:01:00Z",
-    "notes":  "- Log de diagnostico interno mais confiavel\n- Aviso melhor se Em espera/mudo travarem numa ligacao"
+    "installer_sha256":  "3c4042338aba7a1c89cb814621f1e3a3a01364ab56a374cc1023770ccd654317",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.23/Wconect-VoIP_1.1.23.exe",
+    "published_at":  "2026-08-21T11:06:25Z",
+    "notes":  "- Corrigido de vez: Em espera travando a ligacao sem conseguir retomar"
 }

@@ -1,3 +1,9 @@
+Corrigimos de vez o problema de "Em espera" travar a ligação e não retomar mais. Testado com vários ciclos seguidos de colocar em espera e retomar numa ligação real, sem falhas.
+
+**⬇️ Baixar a versão 1.1.23:** [Wconect-VoIP_1.1.23.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.23/Wconect-VoIP_1.1.23.exe)
+
+---
+
 Melhoria de diagnóstico interno (log técnico voltou a funcionar de forma mais confiável) e uma mensagem mais clara: se "Em espera" ou o mudo travarem numa ligação, depois de algumas tentativas o app já sugere desligar e ligar de novo, em vez de insistir sem sucesso.
 
 **⬇️ Baixar a versão 1.1.22:** [Wconect-VoIP_1.1.22.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.22/Wconect-VoIP_1.1.22.exe)
