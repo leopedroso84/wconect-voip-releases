@@ -1,3 +1,9 @@
+Mais um ajuste de diagnóstico interno, sem mudança visível no dia a dia - continua nos ajudando a investigar problemas de chamada com mais precisão.
+
+**⬇️ Baixar a versão 1.1.25:** [Wconect-VoIP_1.1.25.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.25/Wconect-VoIP_1.1.25.exe)
+
+---
+
 Melhoria de diagnóstico interno: cobrimos mais um cenário em que o registro técnico de chamadas podia ficar sem informação nenhuma, pra conseguirmos investigar problemas de "Em espera" com mais precisão se acontecerem de novo.
 
 **⬇️ Baixar a versão 1.1.24:** [Wconect-VoIP_1.1.24.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.24/Wconect-VoIP_1.1.24.exe)

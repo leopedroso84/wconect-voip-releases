@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.24",
+    "version":  "1.1.25",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "a0ef18ac257f214b378a45129c07b37842c2e484ed92130d53579ee892bb43ef",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.24/Wconect-VoIP_1.1.24.exe",
-    "published_at":  "2026-08-21T20:58:29Z",
-    "notes":  "- Melhoria de diagnostico interno pra investigar problemas de Em espera com mais precisao"
+    "installer_sha256":  "a4354f53b8b0c920f4a037938c1e05c26145105c68f138b1a149a5c8a6a2fc54",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.25/Wconect-VoIP_1.1.25.exe",
+    "published_at":  "2026-08-28T19:24:12Z",
+    "notes":  "- Mais um ajuste de diagnostico interno, sem mudanca visivel"
 }
