@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.25",
+    "version":  "1.1.26",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "a4354f53b8b0c920f4a037938c1e05c26145105c68f138b1a149a5c8a6a2fc54",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.25/Wconect-VoIP_1.1.25.exe",
-    "published_at":  "2026-08-28T19:24:12Z",
-    "notes":  "- Mais um ajuste de diagnostico interno, sem mudanca visivel"
+    "installer_sha256":  "7d5369119f95683a2e564325c7e65f4284483b82aa1c41d7bf0df7e7ce77d104",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.26/Wconect-VoIP_1.1.26.exe",
+    "published_at":  "2026-08-28T19:36:43Z",
+    "notes":  "- Botao Ligar redisca a ultima chamada quando o campo esta vazio"
 }

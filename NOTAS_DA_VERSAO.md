@@ -1,3 +1,9 @@
+Novidade no discador: com o campo vazio, o botão "Ligar" agora redisca a última chamada (recebida ou feita) - passe o mouse por cima pra ver pra quem vai ligar antes de clicar.
+
+**⬇️ Baixar a versão 1.1.26:** [Wconect-VoIP_1.1.26.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.26/Wconect-VoIP_1.1.26.exe)
+
+---
+
 Mais um ajuste de diagnóstico interno, sem mudança visível no dia a dia - continua nos ajudando a investigar problemas de chamada com mais precisão.
 
 **⬇️ Baixar a versão 1.1.25:** [Wconect-VoIP_1.1.25.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.25/Wconect-VoIP_1.1.25.exe)
