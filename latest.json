@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.26",
+    "version":  "1.1.28",
     "installer_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/latest/Wconect-VoIP_Setup.exe",
-    "installer_sha256":  "7d5369119f95683a2e564325c7e65f4284483b82aa1c41d7bf0df7e7ce77d104",
-    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.26/Wconect-VoIP_1.1.26.exe",
-    "published_at":  "2026-08-28T19:36:43Z",
-    "notes":  "- Botao Ligar redisca a ultima chamada quando o campo esta vazio"
+    "installer_sha256":  "e0390333dca1cfef99ef9869d8dca191fbaaf97dbee04edc124b2a647d7ed321",
+    "archive_url":  "https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.28/Wconect-VoIP_1.1.28.exe",
+    "published_at":  "2026-10-02T15:52:13Z",
+    "notes":  "- Corrige ramal registrar mas nao receber chamadas em alguns casos\n- App agora se identifica pro PABX no registro (header User-Agent)"
 }

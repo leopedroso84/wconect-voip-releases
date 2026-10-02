@@ -1,3 +1,9 @@
+Corrigimos uma causa real de ramal registrar normalmente (aparecendo "Online" no app) mas não receber chamadas: o app não estava se identificando pro PABX no momento do registro (header "User-Agent" ausente), diferente de qualquer outro softphone usado com o mesmo PABX. Identificado comparando o registro do nosso app com o de outro softphone direto no PABX via SSH. Se o seu ramal estava com esse sintoma, atualize para esta versão.
+
+**â¬‡ï¸ Baixar a versÃ£o 1.1.28:** [Wconect-VoIP_1.1.28.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.28/Wconect-VoIP_1.1.28.exe)
+
+---
+
 Novidade no discador: com o campo vazio, o botão "Ligar" agora redisca a última chamada (recebida ou feita) - passe o mouse por cima pra ver pra quem vai ligar antes de clicar.
 
 **⬇️ Baixar a versão 1.1.26:** [Wconect-VoIP_1.1.26.exe](https://github.com/leopedroso84/wconect-voip-releases/releases/download/v1.1.26/Wconect-VoIP_1.1.26.exe)
